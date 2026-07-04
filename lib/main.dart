@@ -14,17 +14,24 @@ import 'services/auth_service.dart';
 // and signOut through the AuthService interface.
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-    options: Platform.isAndroid
-        ? const FirebaseOptions(
-            apiKey: 'your-android-api-key',
-            appId: 'your-android-app-id',
-            messagingSenderId: 'your-sender-id',
-            projectId: 'infinity-apk',
-          )
-        : null,
-  );
-  final authService = FirebaseAuthService();
+
+  AuthService authService;
+  try {
+    await Firebase.initializeApp(
+      options: Platform.isAndroid
+          ? const FirebaseOptions(
+              apiKey: 'your-android-api-key',
+              appId: 'your-android-app-id',
+              messagingSenderId: 'your-sender-id',
+              projectId: 'infinity-apk',
+            )
+          : null,
+    );
+    authService = FirebaseAuthService();
+  } catch (e) {
+    debugPrint('Firebase initialization failed; using mock auth: $e');
+    authService = MockAuthService();
+  }
   const apiBaseUrl = String.fromEnvironment(
     'INFINITY_API_URL',
     defaultValue: 'http://10.0.2.2:8000',
