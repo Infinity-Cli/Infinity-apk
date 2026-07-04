@@ -46,3 +46,6 @@ Thumbs.db
 # Secrets
 google-services.json
 *.keystore
+
+# Heap dumps
+*.hprof
