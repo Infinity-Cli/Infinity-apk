@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'dart:convert';
 
-import 'package:web_socket_channel/io_websocket_channel.dart';
 import 'package:web_socket_channel/web_socket_channel.dart';
 
 /// Exception thrown when a WebSocket operation fails.
@@ -84,7 +83,7 @@ class WebSocketChannelService implements InfinityWebSocket {
     await _disconnectChannel();
 
     try {
-      _channel = IOWebSocketChannel.connect(
+      _channel = WebSocketChannel.connect(
         Uri.parse(url),
         headers: _headers,
         pingInterval: const Duration(seconds: 30),
