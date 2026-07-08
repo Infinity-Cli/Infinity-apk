@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#FF000000</color>
+    <string name="app_name">Infinity Companion</string>
+    <string name="approval_dialog_approve">Approve</string>
+    <string name="approval_dialog_deny">Deny</string>
+    <string name="approval_dialog_title">Approve command?</string>
+    <string name="execution_pause">Pause</string>
+    <string name="execution_resume">Resume</string>
+    <string name="execution_stop">Stop</string>
+    <style name="Theme.Infinity" parent="android:Theme.Material.Light.NoActionBar"/>
+</resources>

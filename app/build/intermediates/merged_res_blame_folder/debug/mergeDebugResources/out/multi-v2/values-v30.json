@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.infinity.companion.app-mergeDebugResources-47:/values-v30/values-v30.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\satya\\.gradle\\caches\\8.9\\transforms\\454e4a0b7bd0e94c7bd020d365461cd8\\transformed\\material3-release\\res\\values-v30\\values-v30.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "72",
+                        "endOffsets": "123"
+                    }
+                }
+            ]
+        }
+    ]
+}

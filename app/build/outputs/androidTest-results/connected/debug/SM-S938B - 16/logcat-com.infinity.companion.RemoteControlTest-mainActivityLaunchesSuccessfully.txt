@@ -1,0 +1,670 @@
+07-08 05:20:51.447 21240 21258 I TestRunner: started: mainActivityLaunchesSuccessfully(com.infinity.companion.RemoteControlTest)
+07-08 05:20:51.449 21240 21258 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+07-08 05:20:51.453 21240 21258 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+07-08 05:20:51.457  1930  1989 I SurfaceFlinger: id=81473 createSurf, flag=24004, Task=3222#81473
+07-08 05:20:51.458  1930  1930 I SurfaceFlinger: [Task=3222#81473] attach to parent LayerHierarchy{RequestedLayerState{DefaultTaskDisplayArea_d0#10 parentId=9} 7 children}
+07-08 05:20:51.458  1930  1989 I SurfaceFlinger: id=81474 createSurf, flag=84004, ActivityRecord{155866023 u0 com.infinity.companion/.MainActivity t3222}#81474
+07-08 05:20:51.458  1839  2381 W SDM     : DisplayBase::ResetDispLayerStack: Stack did not clear in PostCommit. Clear now.
+07-08 05:20:51.459  1839  2381 W SDM     : DisplayBase::CommitOrPrepare: Prepare failed: 3
+07-08 05:20:51.459  1930  1930 E SurfaceFlinger: [StatusBar$_4266#95] Invalid device requested composition type change: Client (1) --> Device (2)
+07-08 05:20:51.459  1930  1930 E SurfaceFlinger: [NotificationShade$_4266#81368] Invalid device requested composition type change: Client (1) --> Device (2)
+07-08 05:20:51.459  1930  1930 E SurfaceFlinger: trackPendingFrame: Invalid present fence
+07-08 05:20:51.460  2936  7327 D InputDispatcher: Focused application(0): ActivityRecord{155866023 u0 com.infinity.companion/.MainActivity t3222}
+07-08 05:20:51.461  4266  4557 D ShellDesktopMode: handleRequest: TransitionRequestInfo {type=1, tid=3222, debugId=6659}
+07-08 05:20:51.462  2936  7327 I SemDvfsHyPerManager: acquire hyper - AMS_APP_LAUNCH/2936@22, type = -999
+07-08 05:20:51.462  2936  4907 D GraphicsStatsService: requestRenderEngineFor(com.infinity.companion)
+07-08 05:20:51.462 21240 21240 D HWUI    : HWUI - treat SMPTE_170M as sRGB
+07-08 05:20:51.463  4266  4589 D ViewRootImpl: desktopMode is false
+07-08 05:20:51.463  4266  4589 I ViewRootImpl: dVRR is disabled
+07-08 05:20:51.463  4266  4721 D NativeCustomFrequencyManager: [NativeCFMS] BpCustomFrequencyManager::BpCustomFrequencyManager()
+07-08 05:20:51.463 21240 21261 D HWUI    : CacheManager constructor. deviceInfo=(1080, 1920)
+07-08 05:20:51.464  5586  5586 E pageboostd: Received HALT command code 2
+07-08 05:20:51.464  1817  1973 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 4376383 [2936 / 22]  HINT : AMS_APP_LAUNCH   list :
+07-08 05:20:51.465  7346  7346 I SemDvfsHyPerManager: acquire hyper - APP_START/7346@26, type = -999
+07-08 05:20:51.465  1817  1973 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 27176904 [7346 / 26]  HINT : APP_START   list :
+07-08 05:20:51.465 21240 21261 D vulkan  : searching for layers in '/data/app/~~Mo_phgvjgre6QJmbpk2f_A==/com.infinity.companion-66TB5Hzz4hGLHihivHDZxw==/lib/arm64'
+07-08 05:20:51.465 21240 21261 D vulkan  : searching for layers in '/data/app/~~Z4rlO0C5oSnqu6GeeduxwQ==/com.infinity.companion.test-0FASsh8sYE_9csXCZj0xzg==/base.apk!/lib/arm64-v8a'
+07-08 05:20:51.465 21240 21261 D vulkan  : searching for layers in '/data/app/~~Mo_phgvjgre6QJmbpk2f_A==/com.infinity.companion-66TB5Hzz4hGLHihivHDZxw==/base.apk!/lib/arm64-v8a'
+07-08 05:20:51.465  2936  3745 D AS.MultiSoundManager: mForegroundUid = 10560
+07-08 05:20:51.465  1824  1824 I SS_POWER_HINT_SESSION: SS_ADPF 4266-10048-b5b0 PowerHintSession createHintSession : , 4719, 4720, 4589, 4721 : 16666667
+07-08 05:20:51.466  2936  7262 D InputTransport: Input channel constructed: '26d684 ', fd=1557
+07-08 05:20:51.466  2936  7262 D InputTransport: Input channel constructed: '26d684 ', fd=1560
+07-08 05:20:51.466  2936  7262 D InputTransport: Input channel constructed: '26d684 ', fd=1561
+07-08 05:20:51.466  2936  7262 D InputTransport: Input channel destroyed: '26d684 ', fd=1560
+07-08 05:20:51.466  2936  2989 D PkgPredictorService-SecIpmManagerServiceImpl: onForegroundActivitiesChanged pid:21240 uid:10560
+07-08 05:20:51.466  1930  2384 I SurfaceFlinger: id=81475 createSurf, flag=84004, 26d684 Splash Screen com.infinity.companion#81475
+07-08 05:20:51.466  2936  5432 V PkgPredictorService-SecIpmManagerServiceImpl: discard foreground app:com.infinity.companion 0|false
+07-08 05:20:51.467  2936  7262 D InputTransport: Input channel destroyed: '26d684 ', fd=1561
+07-08 05:20:51.467  2936  2989 D NetworkPolicy: already checked 10560
+07-08 05:20:51.467  4266  4589 D InputTransport: Input channel constructed: '26d684 ', fd=746
+07-08 05:20:51.468 15681 15688 I SAMSUNGWALLET: [Hint_ProcessStatusChange] fg Change, pid : 21240 , isNotify : true , isForeground : true , fg list : []
+07-08 05:20:51.468  2936  2989 D NetworkPolicy: already checked 10560
+07-08 05:20:51.468 15681 15689 I SAMSUNGWALLET: [Hint_ProcessStatusChange] fg Change, pid : 21240 , isNotify : false , isForeground : true , fg list : []
+07-08 05:20:51.468  4266  4589 I InsetsController: onStateChanged: host=Splash Screen com.infinity.companion, from=android.view.ViewRootImpl.onInsetsStateChanged:3038, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1440, 3120), mDisplayCutout=DisplayCutout{insets=Rect(0, 128 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(685, 0 - 755, 128), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1440 displayHeight=3120 physicalDisplayWidth=1440 physicalDisplayHeight=3120 density={3.75} cutoutSpec={M 0,0 H -9.333333333333333 V 34.13333333333333 H 9.333333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=53, center=Point(53, 53)}, RoundedCorner{position=TopRight, radius=53, center=Point(1387, 53)}, RoundedCorner{position=BottomRight, radius=53, center=Point(1387, 3067)}, RoundedCorner{position=BottomLeft, radius=53, center=Point(53, 3067)}]}  mRoundedCornerFrame=Rect(0, 0 - 1440, 3120), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(1286, 0 - 1440, 128) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1440 displayHeight=3120 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {c2290001 mType=navigationBars mFrame=[0,3067][1440,3120] mAttachedInsets=null mVisible=false mFlags=SUPPRESS_SCRIM mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {c2290004 mType=systemGestures mFrame=[0,0][105,3120] mAttachedInsets=null mVisible=true mFlags= mSideHint=LEFT mBoundingRects=null}, InsetsSource: {c2290005 mType=mandatorySystemGestures mFrame=[0,3008][1440,3120] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {c2290006 mType=tappableElement mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {c2290024 mType=systemGestures mFrame=[1335,0][1440,3120] mAttachedInsets=null mVisible=true mFlags= mSideHint=RIGHT mBoundingRects=null}, InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mAttachedInsets=null mVisible=false mFlags=INVALID mSideHint=NONE mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1440,128] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {14390000 mType=statusBars mFrame=[0,0][1440,128] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {14390005 mType=mandatorySystemGestures mFrame=[0,0][1440,170] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {14390006 mType=tappableElement mFrame=[0,0][1440,128] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null} }
+07-08 05:20:51.468  4266  4589 I VRI[companion]@b29b948: synced displayState. AttachInfo displayState=4
+07-08 05:20:51.468  1817  1973 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 773756966 [1824 / 37513]  HINT :     list : [TID_LOW_LATENCY / 1] [TID / 4719] [TID / 4720] [TID / 4589] [TID / 4721]
+07-08 05:20:51.469  4266  4589 I VRI[companion]@b29b948: setView = android.widget.FrameLayout@d8bcb92 IsHRR=false mFlingFrameRateChange=0 TM=true
+07-08 05:20:51.469  1817  1973 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 773756966 [1824 / 37513]  HINT :     list : [TID_LOW_LATENCY / 0] [TID / 4719] [TID / 4720] [TID / 4589] [TID / 4721]
+07-08 05:20:51.469  4266  4721 D HWUI    : HWUI - treat SMPTE_170M as sRGB
+07-08 05:20:51.469  1817  1973 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 773756966
+07-08 05:20:51.469  1817  1973 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 773796305 [1824 / 37514]  HINT :     list : [UCLAMP_MIN_BOOST / 0] [TIMEOUT / 50] [TID / 4719] [TID / 4720] [TID / 4589] [TID / 4721]
+07-08 05:20:51.469  4266  4266 I {OngoingActivityController}: onTaskFocusChanged but OA data is empty
+07-08 05:20:51.470  4960  5244 I HoneySpace.RecentTasks: onRecentTasksChanged l:14645982
+07-08 05:20:51.470  4960  5096 I HoneySpace.TopTaskSource: onTaskMovedToFront : taskId = 3222, displayId = 0
+07-08 05:20:51.471 21240 21240 D DesktopExperienceFlags: Toggle override initialized to: false
+07-08 05:20:51.471  4960 22356 I HoneySpace.LauncherProvider: call - com.samsung.android.spay, get_rotation_state, null
+07-08 05:20:51.471  4960 22356 I HoneySpace.ExternalMethodItem: updateRefsItemsByEntryPoints. HoneySpaceInfo(name=HomeOnly, displayId=0)
+07-08 05:20:51.471  4960  5096 I HoneySpace.TopTaskSource: onTaskFocusChanged(): taskId = 3222
+07-08 05:20:51.471  4960  5098 I HoneySpace.TopTaskUseCase: topTasks 3222 ComponentInfo{com.infinity.companion/com.infinity.companion.MainActivity}[displayId=0]
+07-08 05:20:51.471 15681 15790 I SAMSUNGWALLET: [Hint_PayHintService] mIsLauncherPortraitOnlyMode: true, mIsUserLock: true
+07-08 05:20:51.471 15681 15681 I SAMSUNGWALLET: [Hint_PayHintService] Hint Status - already invisible, skip hide : [3] - 3
+07-08 05:20:51.472  4960 18062 I HoneySpace.HistoryViewModel@252414371@HomeOnly: Illegal access. Unknown type. skip load history items
+07-08 05:20:51.473 21240 21240 D LifecycleMonitor: Lifecycle status change: com.infinity.companion.MainActivity@3f77690 in: PRE_ON_CREATE
+07-08 05:20:51.473 21240 21240 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+07-08 05:20:51.474  2936  2991 D EnterpriseDeviceManagerService: isMdmAdminPresentInternal() : MDM Admin Found - com.samsung.knox.securefolder
+07-08 05:20:51.475  2936  3838 D SemWifiTransportLayerMonitor.TcpMonitorHandler: MSG_SAVE_PACKAGE_INFO
+07-08 05:20:51.475  2936  3838 D SemWifiTransportLayerFileManager: saveWifiPackageInfoToFile
+07-08 05:20:51.475  2936  3838 D SemWifiTransportLayerFileManager: writeWifiPackageInfoList
+07-08 05:20:51.475  4960  4960 I HoneySpace.EdgePanel.CocktailHostRepositoryImpl: onNoteResume
+07-08 05:20:51.475  4960  4960 I HoneySpace.EdgePanel.EdgePanelContainerViewModel: cocktailHostRepository.edgePanelOperation NoteResumeComponent(componentName=ComponentInfo{com.infinity.companion/com.infinity.companion.MainActivity})
+07-08 05:20:51.475  4960  4960 I HoneySpace.EdgePanel.ActivityUtils: HomePackage : com.sec.android.app.launcher, resumePackageName : com.infinity.companion, className : com.infinity.companion.MainActivity
+07-08 05:20:51.477  9973  9983 I Routine@Core[5.0.03.22]: ActivityWatcherListenerImpl: onResumeComponent: componentName - com.infinity.companion, com.infinity.companion.MainActivity, userId: 0
+07-08 05:20:51.477 21240 21240 D CompatChangeReporter: Compat change id reported: 309578419; UID 10560; state: ENABLED
+07-08 05:20:51.477 21240 21240 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+07-08 05:20:51.477  9973  9983 I Routine@Core[5.0.03.22]: Pref: putSharedPrefsData: key=condition_launch_game_data_resume_pkg, data.size=60
+07-08 05:20:51.478 21240 21240 I DecorView: setWindowBackground: isPopOver=false color=fffafafa d=android.graphics.drawable.ColorDrawable@9c363cb
+07-08 05:20:51.480  4266  4589 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda16@1785963
+07-08 05:20:51.480  2936  7262 I WindowManager: Relayout Window{26d684 u0 Splash Screen com.infinity.companion}: viewVisibility=0 req=1440x3120 ty=3 d0
+07-08 05:20:51.480  1930  2384 I SurfaceFlinger: id=81476 createSurf, flag=44004, Splash Screen com.infinity.companion$_4266#81476
+07-08 05:20:51.481  2936  2989 D PkgPredictorService-SecIpmManagerServiceImpl: bg information pid:4960 uid:10153 pkgName:com.sec.android.app.launcher
+07-08 05:20:51.482 15681 15689 I SAMSUNGWALLET: [Hint_ProcessStatusChange] fg Change, pid : 4960 , isNotify : true , isForeground : false , fg list : []
+07-08 05:20:51.482  2936  7262 I WindowManager: Relayout hash=26d684, pid=4266, syncId=-1: mAttrs={(0,0)(fillxfill) sim={adjust=pan} layoutInDisplayCutoutMode=always ty=APPLICATION_STARTING fmt=TRANSLUCENT wanim=0x1030318
+07-08 05:20:51.482  2936  7262 I WindowManager:   fl=81030118
+07-08 05:20:51.482  2936  7262 I WindowManager:   pfl=10000810
+07-08 05:20:51.482  2936  7262 I WindowManager:   apr=18
+07-08 05:20:51.482  2936  7262 I WindowManager:   bhv=1
+07-08 05:20:51.482  2936  7262 I WindowManager:   fitSides=0
+07-08 05:20:51.482  2936  7262 I WindowManager:   frameRateBoostOnTouch=true
+07-08 05:20:51.482  2936  7262 I WindowManager:   dvrrWindowFrameRateHint=true naviIconColor=0}
+07-08 05:20:51.483  4266  4589 I BufferQueueProducer: [](id:10aa0000158c,api:0,p:632175792,c:4266) setDequeueTimeout:2077252342
+07-08 05:20:51.483  4960 22356 I HoneySpace.LauncherProvider: call - com.samsung.android.spay, get_rotation_state, null
+07-08 05:20:51.483 15681 15689 I SAMSUNGWALLET: [Hint_ProcessStatusChange] fg Change, pid : 4960 , isNotify : false , isForeground : false , fg list : []
+07-08 05:20:51.483  4960 22356 I HoneySpace.ExternalMethodItem: updateRefsItemsByEntryPoints. HoneySpaceInfo(name=HomeOnly, displayId=0)
+07-08 05:20:51.483  4266  4589 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= VRI[companion]@b29b948 mNativeObject= 0xb400007b75b79ce0 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3603 android.view.ViewRootImpl.relayoutWindow:11813 android.view.ViewRootImpl.performTraversals:4840 android.view.ViewRootImpl.doTraversal:3959 android.view.ViewRootImpl$TraversalRunnable.run:13034 android.view.Choreographer$CallbackRecord.run:1961 android.view.Choreographer$CallbackRecord.run:1970 android.view.Choreographer.doCallbacks:1423 android.view.Choreographer.doFrame:1348 android.view.Choreographer$FrameDisplayEventReceiver.run:1930
+07-08 05:20:51.483  4266  4589 I BLASTBufferQueue_Java: update, w= 1440 h= 3120 mName = VRI[companion]@b29b948 mNativeObject= 0xb400007b75b79ce0 sc.mNativeObject= 0xb400007d55aee9d0 format= -3 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3608 android.view.ViewRootImpl.relayoutWindow:11813 android.view.ViewRootImpl.performTraversals:4840 android.view.ViewRootImpl.doTraversal:3959 android.view.ViewRootImpl$TraversalRunnable.run:13034 android.view.Choreographer$CallbackRecord.run:1961
+07-08 05:20:51.483 15681 15790 I SAMSUNGWALLET: [Hint_PayHintService] mIsLauncherPortraitOnlyMode: true, mIsUserLock: true
+07-08 05:20:51.484  4266  4589 I VRI[companion]@b29b948: Relayout returned: old=(0,0,1440,3120) new=(0,0,1440,3120) relayoutAsync=false req=(1440,3120)0 dur=3 res=0x3 s={true 0xb400007bf5e769f0} ch=true seqId=0
+07-08 05:20:51.484  4266  4589 D VRI[companion]@b29b948: mThreadedRenderer.initialize() mSurface={isValid=true 0xb400007bf5e769f0} hwInitialized=true
+07-08 05:20:51.484 15681 15681 I SAMSUNGWALLET: [Hint_PayHintService] Hint Status - already invisible, skip hide : [3] - 3
+07-08 05:20:51.484  4266  4589 D VRI[companion]@b29b948: reportNextDraw android.view.ViewRootImpl.performTraversals:5507 android.view.ViewRootImpl.doTraversal:3959 android.view.ViewRootImpl$TraversalRunnable.run:13034 android.view.Choreographer$CallbackRecord.run:1961 android.view.Choreographer$CallbackRecord.run:1970
+07-08 05:20:51.484  4266  4589 D VRI[companion]@b29b948: Setup new sync=wmsSync-VRI[companion]@b29b948#36
+07-08 05:20:51.484  4266  4589 I VRI[companion]@b29b948: Creating new active sync group VRI[companion]@b29b948#37
+07-08 05:20:51.484  2241 17789 I CameraService: onUidStateChanged: uid=10048, procState is changed. (5 -> 1)
+07-08 05:20:51.485  2241 17789 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-08 05:20:51.485  4266  4557 I SurfaceControlRegistry: apply, t=StartTransaction_SyncId<6659>, caller=android.view.SurfaceControl$Transaction.apply:3581 android.view.SurfaceControl$Transaction.apply:3569 android.view.SurfaceControl$Transaction.apply:3519 com.android.wm.shell.transition.Transitions.processReadyQueue:253 com.android.wm.shell.transition.Transitions.onAbort:95 com.android.wm.shell.transition.Transitions.dispatchReady:333
+07-08 05:20:51.485  5998  6035 V OsAgent : broadcastSystemEvent - 7
+07-08 05:20:51.485  4266  4589 D VRI[companion]@b29b948: registerCallbacksForSync syncBuffer=false
+07-08 05:20:51.485  4266  4557 I SurfaceControlRegistry: apply, t=FinishTransaction_SyncId<6659>, caller=android.view.SurfaceControl$Transaction.apply:3581 android.view.SurfaceControl$Transaction.apply:3569 android.view.SurfaceControl$Transaction.apply:3519 com.android.wm.shell.transition.Transitions.onFinish:381 com.android.wm.shell.transition.Transitions.processReadyQueue:258 com.android.wm.shell.transition.Transitions.onAbort:95
+07-08 05:20:51.486  2936  7327 D PersonaActivityHelper: token.toString()  Token{758dbfd ActivityRecord{155866023 u0 com.infinity.companion/.MainActivity t3222}}
+07-08 05:20:51.486  2936  7327 D PersonaActivityHelper: mLastResumedSFActivity getPackageName  com.samsung.android.messaging
+07-08 05:20:51.486  2936  7327 D PersonaActivityHelper: mLastResumedSFActivity getShortClassName  .ui.view.main.WithActivity
+07-08 05:20:51.487 21240 21261 E Adreno-AppProfiles: QSPM AIDL service doesn't exist
+07-08 05:20:51.487  2241 17789 I CameraService: onUidStateChanged: uid=10048, procState is changed. (1 -> 5)
+07-08 05:20:51.487  2241 17789 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-08 05:20:51.487  5998  6035 V OsAgent : broadcastSystemEvent - 7
+07-08 05:20:51.487 21240 21261 I AdrenoVK-0: ===== BEGIN DUMP OF OVERRIDDEN SETTINGS =====
+07-08 05:20:51.487 21240 21261 I AdrenoVK-0: ===== END DUMP OF OVERRIDDEN SETTINGS =====
+07-08 05:20:51.488  4266  4720 D VRI[companion]@b29b948: Received frameDrawingCallback syncResult=0 frameNum=1.
+07-08 05:20:51.488  4266  4720 I VRI[companion]@b29b948: mWNT: t=0xb400007c35a4b350 mBlastBufferQueue=0xb400007b75b79ce0 fn= 1 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$12.onFrameDraw:15561 android.view.ThreadedRenderer$1.onFrameDraw:751 <bottom of call stack>
+07-08 05:20:51.488  4266  4720 I VRI[companion]@b29b948: Setting up sync and frameCommitCallback
+07-08 05:20:51.489  4266  4721 I BLASTBufferQueue: [VRI[companion]@b29b948#5515](f:0,a:0,s:0) onFrameAvailable the first frame is available
+07-08 05:20:51.489  4266  4721 I SurfaceComposerClient: apply transaction with the first frame. layerId: 81476, bufferData(ID: 18322330522308, frameNumber: 1)
+07-08 05:20:51.489  4266  4721 I VRI[companion]@b29b948: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+07-08 05:20:51.489  1930  2384 I SurfaceFlinger: [Splash Screen com.infinity.companion$_4266#81476] setTransactionState with the first frame. bufferData(ID: 18322330522308, frameNumber: 1)
+07-08 05:20:51.489  4266  4721 D HWUI    : CFMS:: SetUp Pid : 4266    Tid : 4721
+07-08 05:20:51.489  4266  4589 D VRI[companion]@b29b948: reportDrawFinished seqId=0
+07-08 05:20:51.490  4960 20934 I HoneySpace.RecentTasks: onRunningTaskAppeared
+07-08 05:20:51.490  4960  5244 I HoneySpace.RecentTasks: onRecentTasksChanged l:14645982
+07-08 05:20:51.491  4960 18062 I HoneySpace.HistoryViewModel@252414371@HomeOnly: Illegal access. Unknown type. skip load history items
+07-08 05:20:51.491  1930  1930 I SurfaceFlinger: [Display 0 name="Built-in Screen"#41] setFrameRateCategory: High
+07-08 05:20:51.491  1930  1930 I SurfaceFlinger: RequestedLayer [26d684 Splash Screen com.infinity.companion#81475] hidden!! flag  from(1) --> to(0)
+07-08 05:20:51.491  1930  1930 I SurfaceFlinger: [Display 0 name="Built-in Screen"#41] setFrameRateCategory: Default
+07-08 05:20:51.491  1930  1930 I SurfaceFlinger: [ActivityRecord{155866023 u0 com.infinity.companion/.MainActivity t3222}#81474] attach to parent LayerHierarchy{RequestedLayerState{Task=3222#81473 parentId=10 z=4} 1 children}
+07-08 05:20:51.491  1930  1930 I SurfaceFlinger: [26d684 Splash Screen com.infinity.companion#81475] attach to parent LayerHierarchy{RequestedLayerState{ActivityRecord{155866023 u0 com.infinity.companion/.MainActivity t3222}#81474 parentId=81473} 1 children}
+07-08 05:20:51.491  1930  1930 I SurfaceFlinger: [Splash Screen com.infinity.companion$_4266#81476] attach to parent LayerHierarchy{RequestedLayerState{26d684 Splash Screen com.infinity.companion#81475 parentId=81474 z=2147483647} 1 children}
+07-08 05:20:51.492 21240 21261 D qdgralloc: Fetching IMapper5 from QtiMapper5
+07-08 05:20:51.492  1839  2381 W SDM     : DisplayBase::ResetDispLayerStack: Stack did not clear in PostCommit. Clear now.
+07-08 05:20:51.492  1839  2381 W SDM     : DisplayBase::CommitOrPrepare: Prepare failed: 3
+07-08 05:20:51.492  1930  1930 E SurfaceFlinger: [StatusBar$_4266#95] Invalid device requested composition type change: Client (1) --> Device (2)
+07-08 05:20:51.492  1930  1930 E SurfaceFlinger: [NotificationShade$_4266#81368] Invalid device requested composition type change: Client (1) --> Device (2)
+07-08 05:20:51.492  1930  1930 E SurfaceFlinger: trackPendingFrame: Invalid present fence
+07-08 05:20:51.499 21240 21261 I SnapAlloc: Graphics lib is available
+07-08 05:20:51.503 21240 21261 I Adreno-UNKNOWN: Using previously loaded IMapper library.
+07-08 05:20:51.505 21240 21261 I AdrenoVK-0: QUALCOMM build          : f61dec9117, I68b0a64d7e
+07-08 05:20:51.505 21240 21261 I AdrenoVK-0: Build Date              : 03/26/26
+07-08 05:20:51.505 21240 21261 I AdrenoVK-0: Shader Compiler Version : E031.47.18.50
+07-08 05:20:51.505 21240 21261 I AdrenoVK-0: Local Branch            :
+07-08 05:20:51.505 21240 21261 I AdrenoVK-0: Remote Branch           : refs/tags/AU_LINUX_ANDROID_LA.VENDOR.15.4.0.11.00.00.1088.862
+07-08 05:20:51.505 21240 21261 I AdrenoVK-0: Remote Branch           : NONE
+07-08 05:20:51.505 21240 21261 I AdrenoVK-0: Reconstruct Branch      : NOTHING
+07-08 05:20:51.505 21240 21261 I AdrenoVK-0: Build Config            : S P 18.0.0 AArch64
+07-08 05:20:51.505 21240 21261 I AdrenoVK-0: Driver Path             : /vendor/lib64/hw/vulkan.adreno.so
+07-08 05:20:51.505 21240 21261 I AdrenoVK-0: Driver Version          : 0800.64.7
+07-08 05:20:51.505 21240 21261 I AdrenoVK-0: PFP                     : 0x01500077
+07-08 05:20:51.505 21240 21261 I AdrenoVK-0: ME                      : 0x01500014
+07-08 05:20:51.505 21240 21261 I AdrenoVK-0: Application Name    : android framework
+07-08 05:20:51.505 21240 21261 I AdrenoVK-0: Process Name        : com.infinity.companion
+07-08 05:20:51.505 21240 21261 I AdrenoVK-0: Application Version : 0x00000000
+07-08 05:20:51.505 21240 21261 I AdrenoVK-0: Engine Name         : android framework
+07-08 05:20:51.505 21240 21261 I AdrenoVK-0: Engine Version      : 0x00000000
+07-08 05:20:51.505 21240 21261 I AdrenoVK-0: Api Version         : 0x00401000
+07-08 05:20:51.519  1817 21270 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 773796305
+07-08 05:20:51.525  1839  2381 W SDM     : DisplayBase::ResetDispLayerStack: Stack did not clear in PostCommit. Clear now.
+07-08 05:20:51.525  1839  2381 W SDM     : DisplayBase::CommitOrPrepare: Prepare failed: 3
+07-08 05:20:51.525  1930  1930 E SurfaceFlinger: [StatusBar$_4266#95] Invalid device requested composition type change: Client (1) --> Device (2)
+07-08 05:20:51.525  1930  1930 E SurfaceFlinger: [NotificationShade$_4266#81368] Invalid device requested composition type change: Client (1) --> Device (2)
+07-08 05:20:51.525  1930  1930 E SurfaceFlinger: trackPendingFrame: Invalid present fence
+07-08 05:20:51.536 21240 21240 W System.err: SLF4J(W): No SLF4J providers were found.
+07-08 05:20:51.536 21240 21240 W System.err: SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+07-08 05:20:51.536 21240 21240 W System.err: SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+07-08 05:20:51.569  7345  7345 I BSS_SysUiManager: handleMessage = 9, 0, 0
+07-08 05:20:51.610  1817  1973 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 4376383
+07-08 05:20:51.651 21240 21240 D LifecycleMonitor: Lifecycle status change: com.infinity.companion.MainActivity@3f77690 in: CREATED
+07-08 05:20:51.651 21240 21240 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.infinity.companion.MainActivity@3f77690
+07-08 05:20:51.652 21240 21240 D LifecycleMonitor: Lifecycle status change: com.infinity.companion.MainActivity@3f77690 in: STARTED
+07-08 05:20:51.652 21240 21240 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.infinity.companion.MainActivity@3f77690
+07-08 05:20:51.657 21240 21240 D LifecycleMonitor: Lifecycle status change: com.infinity.companion.MainActivity@3f77690 in: RESUMED
+07-08 05:20:51.657 21240 21240 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.infinity.companion.MainActivity@3f77690
+07-08 05:20:51.664 21240 21240 D ViewRootImpl: desktopMode is false
+07-08 05:20:51.664 21240 21240 D CompatChangeReporter: Compat change id reported: 349153669; UID 10560; state: ENABLED
+07-08 05:20:51.665 21240 21240 I ViewRootImpl: dVRR is disabled
+07-08 05:20:51.665 21240 21240 D HardwareRenderer: onDisplayChanged. displayId=0 current wxh=1440x3120 mLargest wxh=0x0
+07-08 05:20:51.665 21240 21240 D HardwareRenderer: Set largestWidth and largestHeight as logical resolution. (1440x3120)
+07-08 05:20:51.665 21240 21261 D HWUI    : setMaxSurfaceArea requested wxh=(1440,3120) requestedSurfaceArea(4492800) mMaxSurfaceArea(2073600)
+07-08 05:20:51.666 21240 21261 D NativeCustomFrequencyManager: [NativeCFMS] BpCustomFrequencyManager::BpCustomFrequencyManager()
+07-08 05:20:51.667  1824  1824 I SS_POWER_HINT_SESSION: SS_ADPF 21240-10560-6150 PowerHintSession createHintSession : , 21285, 21287, 21240, 21261 : 16666667
+07-08 05:20:51.667  1817  1973 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 773835645 [1824 / 37515]  HINT :     list : [TID_LOW_LATENCY / 1] [TID / 21285] [TID / 21287] [TID / 21240] [TID / 21261]
+07-08 05:20:51.668  1817  1973 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 773874986 [1824 / 37516]  HINT :     list : [UCLAMP_MIN_BOOST / 0] [TIMEOUT / 350] [TID / 21285] [TID / 21287] [TID / 21240] [TID / 21261]
+07-08 05:20:51.668  2936  4907 D InputTransport: Input channel constructed: 'f58a744', fd=1563
+07-08 05:20:51.668  2936  4907 D InputTransport: Input channel constructed: 'f58a744', fd=1564
+07-08 05:20:51.669  2936  4907 D InputTransport: Input channel constructed: 'f58a744', fd=1565
+07-08 05:20:51.669  2936  4907 D InputTransport: Input channel destroyed: 'f58a744', fd=1564
+07-08 05:20:51.669  1930  1989 I SurfaceFlinger: id=81477 createSurf, flag=84004, f58a744 com.infinity.companion/com.infinity.companion.MainActivity#81477
+07-08 05:20:51.669  2936  4907 D InputTransport: Input channel destroyed: 'f58a744', fd=1565
+07-08 05:20:51.670 21240 21240 D InputTransport: Input channel constructed: 'f58a744', fd=132
+07-08 05:20:51.671 21240 21240 I InsetsController: onStateChanged: host=com.infinity.companion/com.infinity.companion.MainActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3038, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1440, 3120), mDisplayCutout=DisplayCutout{insets=Rect(0, 128 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(685, 0 - 755, 128), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1440 displayHeight=3120 physicalDisplayWidth=1440 physicalDisplayHeight=3120 density={3.75} cutoutSpec={M 0,0 H -9.333333333333333 V 34.13333333333333 H 9.333333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=53, center=Point(53, 53)}, RoundedCorner{position=TopRight, radius=53, center=Point(1387, 53)}, RoundedCorner{position=BottomRight, radius=53, center=Point(1387, 3067)}, RoundedCorner{position=BottomLeft, radius=53, center=Point(53, 3067)}]}  mRoundedCornerFrame=Rect(0, 0 - 1440, 3120), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(1286, 0 - 1440, 128) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1440 displayHeight=3120 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {c2290001 mType=navigationBars mFrame=[0,3067][1440,3120] mAttachedInsets=null mVisible=false mFlags=SUPPRESS_SCRIM mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {c2290004 mType=systemGestures mFrame=[0,0][105,3120] mAttachedInsets=null mVisible=true mFlags= mSideHint=LEFT mBoundingRects=null}, InsetsSource: {c2290005 mType=mandatorySystemGestures mFrame=[0,3008][1440,3120] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {c2290006 mType=tappableElement mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {c2290024 mType=systemGestures mFrame=[1335,0][1440,3120] mAttachedInsets=null mVisible=true mFlags= mSideHint=RIGHT mBoundingRects=null}, InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mAttachedInsets=null mVisible=false mFlags=INVALID mSideHint=NONE mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1440,128] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {14390000 mType=statusBars mFrame=[0,0][1440,128] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {14390005 mType=mandatorySystemGestures mFrame=[0,0][1440,170] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {14390006 mType=tappableElement mFrame=[0,0][1440,128] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null} }
+07-08 05:20:51.672 21240 21240 I VRI[MainActivity]@74e2437: synced displayState. AttachInfo displayState=4
+07-08 05:20:51.673 21240 21240 I VRI[MainActivity]@74e2437: setView = com.android.internal.policy.DecorView@554ed0e IsHRR=false mFlingFrameRateChange=0 TM=true
+07-08 05:20:51.673 21240 21240 I IDS_TAG : Starting IDS observe window
+07-08 05:20:51.673 21240 21240 I IDS_TAG : Getting Shared Preference for android.app.Application@8daea19 uid = 10560
+07-08 05:20:51.673 21240 21240 I IDS_TAG : App android.app.Application@8daea19 has not finished training
+07-08 05:20:51.674 21240 21240 D LifecycleMonitor: Lifecycle status change: com.infinity.companion.MainActivity@3f77690 in: PAUSED
+07-08 05:20:51.674 21240 21240 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.infinity.companion.MainActivity@3f77690
+07-08 05:20:51.674 21240 21261 D HWUI    : HWUI - treat SMPTE_170M as sRGB
+07-08 05:20:51.674 21240 21240 I IDS_TAG : Closing IDS observe window
+07-08 05:20:51.674 21240 21240 I IDS_TAG : Getting Shared Preference for android.app.Application@8daea19 uid = 10560
+07-08 05:20:51.675 21240 21240 I IDS_TAG : IDS count updated to 1 for android.app.Application@8daea19
+07-08 05:20:51.676  9973 12527 I Routine@Core[5.0.03.22]: ActivityWatcherListenerImpl: onPauseComponent: componentName - com.infinity.companion, userId: 0
+07-08 05:20:51.677  9973 12527 I Routine@Core[5.0.03.22]: Pref: removeSharedPrefsData() key=condition_launch_game_data_resume_pkg
+07-08 05:20:51.678  9973  7578 I Routine@Core[5.0.03.22]: ModeOrderObserver: ModeOrderObserver:onChange: uri content://com.samsung.android.app.routines.routineprovider/preference
+07-08 05:20:51.681  9973  7578 I Routine@Core[5.0.03.22]: ModesOrderManager: getOrderOrDefault: uuid(100)
+07-08 05:20:51.682  9973  7578 I Routine@Core[5.0.03.22]: ModesOrderManager: getOrder: uuid(100) -> order(999)
+07-08 05:20:51.682  9973  7578 I Routine@Core[5.0.03.22]: ModesOrderManager: getOrderOrDefault: uuid(106)
+07-08 05:20:51.682  9973  7578 I Routine@Core[5.0.03.22]: ModesOrderManager: getOrder: uuid(106) -> order(1005)
+07-08 05:20:51.682  9973  7578 I Routine@Core[5.0.03.22]: ModeListHolder: update: size(2) updated(2026/07/08 05:20:51) [ModeMeta(id=1, uuid=100, iconResourceId=2131231218, iconStatusResourceId=2131231734, displayName=Sleep, isRunning=false, runningReason=, runningReasonCondition=, isSet=true, isDeleted=false, detailRunningReason=null, order=999, toggleTime=1762901738452), ModeMeta(id=7, uuid=106, iconResourceId=2131231430, iconStatusResourceId=2131231748, displayName=Game, isRunning=false, runningReason=, runningReasonCondition=, isSet=true, isDeleted=false, detailRunningReason=null, order=1005, toggleTime=1783465423961)]
+07-08 05:20:51.691  1930  1930 I SurfaceFlinger: [f58a744 com.infinity.companion/com.infinity.companion.MainActivity#81477] attach to parent LayerHierarchy{RequestedLayerState{ActivityRecord{155866023 u0 com.infinity.companion/.MainActivity t3222}#81474 parentId=81473} 2 children}
+07-08 05:20:51.691  1839  2381 W SDM     : DisplayBase::ResetDispLayerStack: Stack did not clear in PostCommit. Clear now.
+07-08 05:20:51.691  1839  2381 W SDM     : DisplayBase::CommitOrPrepare: Prepare failed: 3
+07-08 05:20:51.692  1930  1930 E SurfaceFlinger: [StatusBar$_4266#95] Invalid device requested composition type change: Client (1) --> Device (2)
+07-08 05:20:51.692  1930  1930 E SurfaceFlinger: [NotificationShade$_4266#81368] Invalid device requested composition type change: Client (1) --> Device (2)
+07-08 05:20:51.692  1930  1930 E SurfaceFlinger: trackPendingFrame: Invalid present fence
+07-08 05:20:51.724  1930  1930 I SurfaceFlinger: RequestedLayer [f58a744 com.infinity.companion/com.infinity.companion.MainActivity#81477] hidden!! flag  from(1) --> to(0)
+07-08 05:20:51.725  1839  2381 W SDM     : DisplayBase::ResetDispLayerStack: Stack did not clear in PostCommit. Clear now.
+07-08 05:20:51.725  1839  2381 W SDM     : DisplayBase::CommitOrPrepare: Prepare failed: 3
+07-08 05:20:51.725  1930  1930 E SurfaceFlinger: [StatusBar$_4266#95] Invalid device requested composition type change: Client (1) --> Device (2)
+07-08 05:20:51.725  1930  1930 E SurfaceFlinger: [NotificationShade$_4266#81368] Invalid device requested composition type change: Client (1) --> Device (2)
+07-08 05:20:51.725  1930  1930 E SurfaceFlinger: trackPendingFrame: Invalid present fence
+07-08 05:20:51.732 21240 21244 I inity.companion: Compiler allocated 5223KB to compile void android.view.ViewRootImpl.performTraversals()
+07-08 05:20:51.743 21240 21240 D VRI[MainActivity]@74e2437: WindowInsets changed: 1440x3120 statusBars:[0,128,0,0] mandatorySystemGestures:[0,170,0,112]
+07-08 05:20:51.744 21240 21240 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda16@8c176e1
+07-08 05:20:51.759 21240 21240 I HWUI    : Using FreeType backend (prop=Auto)
+07-08 05:20:51.774  4960  5244 I HoneySpace.RecentTasks: onRecentTasksChanged l:14645982
+07-08 05:20:51.775  4960 20934 I HoneySpace.HistoryViewModel@252414371@HomeOnly: Illegal access. Unknown type. skip load history items
+07-08 05:20:51.785 21240 21240 W inity.companion: Method boolean androidx.compose.runtime.snapshots.SnapshotStateList.conditionalUpdate(boolean, kotlin.jvm.functions.Function1) failed lock verification and will run slower.
+07-08 05:20:51.785 21240 21240 W inity.companion: Common causes for lock verification issues are non-optimized dex code
+07-08 05:20:51.785 21240 21240 W inity.companion: and incorrect proguard optimizations.
+07-08 05:20:51.785 21240 21240 W inity.companion: Method boolean androidx.compose.runtime.snapshots.SnapshotStateList.conditionalUpdate$default(androidx.compose.runtime.snapshots.SnapshotStateList, boolean, kotlin.jvm.functions.Function1, int, java.lang.Object) failed lock verification and will run slower.
+07-08 05:20:51.785 21240 21240 W inity.companion: Method java.lang.Object androidx.compose.runtime.snapshots.SnapshotStateList.mutate(kotlin.jvm.functions.Function1) failed lock verification and will run slower.
+07-08 05:20:51.785 21240 21240 W inity.companion: Method void androidx.compose.runtime.snapshots.SnapshotStateList.update(boolean, kotlin.jvm.functions.Function1) failed lock verification and will run slower.
+07-08 05:20:51.785 21240 21240 W inity.companion: Method void androidx.compose.runtime.snapshots.SnapshotStateList.update$default(androidx.compose.runtime.snapshots.SnapshotStateList, boolean, kotlin.jvm.functions.Function1, int, java.lang.Object) failed lock verification and will run slower.
+07-08 05:20:51.816  2936  6102 I WindowManager: Relayout Window{f58a744 u0 com.infinity.companion/com.infinity.companion.MainActivity}: viewVisibility=0 req=1440x3120 ty=1 d0
+07-08 05:20:51.816  1930  1989 I SurfaceFlinger: id=81478 createSurf, flag=44004, com.infinity.companion/com.infinity.companion.MainActivity$_21240#81478
+07-08 05:20:51.817  2936  6102 I WindowManager: Relayout hash=f58a744, pid=21240, syncId=-1: mAttrs={(0,0)(fillxfill) sim={adjust=pan forwardNavigation} layoutInDisplayCutoutMode=always ty=BASE_APPLICATION wanim=0x1030318
+07-08 05:20:51.817  2936  6102 I WindowManager:   fl=81810100
+07-08 05:20:51.817  2936  6102 I WindowManager:   pfl=100088c0
+07-08 05:20:51.817  2936  6102 I WindowManager:   bhv=1
+07-08 05:20:51.817  2936  6102 I WindowManager:   fitSides=0
+07-08 05:20:51.817  2936  6102 I WindowManager:   frameRateBoostOnTouch=true
+07-08 05:20:51.817  2936  6102 I WindowManager:   dvrrWindowFrameRateHint=true naviIconColor=0}
+07-08 05:20:51.818 21240 21240 E BufferQueueProducer: Unable to open libpenguin.so: dlopen failed: library "libpenguin.so" not found.
+07-08 05:20:51.818 21240 21240 E inity.companion: Unable to open libpenguin.so: dlopen failed: library "libpenguin.so" not found.
+07-08 05:20:51.818 21240 21240 I BufferQueueProducer: [](id:52f800000000,api:0,p:0,c:21240) setDequeueTimeout:2077252342
+07-08 05:20:51.818 21240 21240 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= VRI[MainActivity]@74e2437 mNativeObject= 0xb400007b75a28430 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3603 android.view.ViewRootImpl.relayoutWindow:11813 android.view.ViewRootImpl.performTraversals:4840 android.view.ViewRootImpl.doTraversal:3959 android.view.ViewRootImpl$TraversalRunnable.run:13034 android.view.Choreographer$CallbackRecord.run:1961 android.view.Choreographer$CallbackRecord.run:1970 android.view.Choreographer.doCallbacks:1423 android.view.Choreographer.doFrame:1348 android.view.Choreographer$FrameDisplayEventReceiver.run:1930
+07-08 05:20:51.818 21240 21240 I BLASTBufferQueue_Java: update, w= 1440 h= 3120 mName = VRI[MainActivity]@74e2437 mNativeObject= 0xb400007b75a28430 sc.mNativeObject= 0xb400007d55a27a10 format= -1 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3608 android.view.ViewRootImpl.relayoutWindow:11813 android.view.ViewRootImpl.performTraversals:4840 android.view.ViewRootImpl.doTraversal:3959 android.view.ViewRootImpl$TraversalRunnable.run:13034 android.view.Choreographer$CallbackRecord.run:1961
+07-08 05:20:51.819  1930  2384 W libbinder.ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10560 pid=0
+07-08 05:20:51.819  1930  2384 D libbinder.PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10560 => denied (113 us)
+07-08 05:20:51.819 21240 21240 I VRI[MainActivity]@74e2437: Relayout returned: old=(0,0,1440,3120) new=(0,0,1440,3120) relayoutAsync=false req=(1440,3120)0 dur=2 res=0x3 s={true 0xb400007bf5a4c690} ch=true seqId=0
+07-08 05:20:51.819  1930  2384 W libbinder.ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10560 pid=0
+07-08 05:20:51.819  1930  2384 D libbinder.PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10560 => denied (53 us)
+07-08 05:20:51.819  1930  2384 W libbinder.ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10560 pid=0
+07-08 05:20:51.819  1930  2384 D libbinder.PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10560 => denied (72 us)
+07-08 05:20:51.819  1930  1989 W libbinder.ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10560 pid=21240
+07-08 05:20:51.819  1930  1989 D libbinder.PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10560 => denied (124 us)
+07-08 05:20:51.819 21240 21240 D VRI[MainActivity]@74e2437: mThreadedRenderer.initialize() mSurface={isValid=true 0xb400007bf5a4c690} hwInitialized=true
+07-08 05:20:51.824  1930  1930 I SurfaceFlinger: [com.infinity.companion/com.infinity.companion.MainActivity$_21240#81478] attach to parent LayerHierarchy{RequestedLayerState{f58a744 com.infinity.companion/com.infinity.companion.MainActivity#81477 parentId=81474} 1 children}
+07-08 05:20:51.825  1839  2381 W SDM     : DisplayBase::ResetDispLayerStack: Stack did not clear in PostCommit. Clear now.
+07-08 05:20:51.825  1839  2381 W SDM     : DisplayBase::CommitOrPrepare: Prepare failed: 3
+07-08 05:20:51.825  1930  1930 E SurfaceFlinger: [StatusBar$_4266#95] Invalid device requested composition type change: Client (1) --> Device (2)
+07-08 05:20:51.825  1930  1930 E SurfaceFlinger: [NotificationShade$_4266#81368] Invalid device requested composition type change: Client (1) --> Device (2)
+07-08 05:20:51.825  1930  1930 E SurfaceFlinger: trackPendingFrame: Invalid present fence
+07-08 05:20:51.830 21240 21240 D VRI[MainActivity]@74e2437: reportNextDraw android.view.ViewRootImpl.performTraversals:5507 android.view.ViewRootImpl.doTraversal:3959 android.view.ViewRootImpl$TraversalRunnable.run:13034 android.view.Choreographer$CallbackRecord.run:1961 android.view.Choreographer$CallbackRecord.run:1970
+07-08 05:20:51.830 21240 21240 D VRI[MainActivity]@74e2437: Setup new sync=wmsSync-VRI[MainActivity]@74e2437#0
+07-08 05:20:51.830 21240 21240 I VRI[MainActivity]@74e2437: Creating new active sync group VRI[MainActivity]@74e2437#1
+07-08 05:20:51.830 21240 21240 D VRI[MainActivity]@74e2437: registerCallbacksForSync syncBuffer=false
+07-08 05:20:51.835 21240 21287 D VRI[MainActivity]@74e2437: Received frameDrawingCallback syncResult=0 frameNum=1.
+07-08 05:20:51.835 21240 21287 I VRI[MainActivity]@74e2437: mWNT: t=0xb400007c35a3fef0 mBlastBufferQueue=0xb400007b75a28430 fn= 1 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$12.onFrameDraw:15561 android.view.ThreadedRenderer$1.onFrameDraw:751 <bottom of call stack>
+07-08 05:20:51.835 21240 21287 I VRI[MainActivity]@74e2437: Setting up sync and frameCommitCallback
+07-08 05:20:51.835 21240 21261 I AdrenoUtils: <ReadGpuID:366>: Reading chip ID through GSL
+07-08 05:20:51.843 21240 21261 I AdrenoVK-0: Shader compilation failed for shaderType: 0
+07-08 05:20:51.843 21240 21261 I AdrenoVK-0: Pipeline create failed
+07-08 05:20:51.858  1839  2381 W SDM     : DisplayBase::ResetDispLayerStack: Stack did not clear in PostCommit. Clear now.
+07-08 05:20:51.858  1839  2381 W SDM     : DisplayBase::CommitOrPrepare: Prepare failed: 3
+07-08 05:20:51.858  1930  1930 E SurfaceFlinger: [StatusBar$_4266#95] Invalid device requested composition type change: Client (1) --> Device (2)
+07-08 05:20:51.858  1930  1930 E SurfaceFlinger: [NotificationShade$_4266#81368] Invalid device requested composition type change: Client (1) --> Device (2)
+07-08 05:20:51.858  1930  1930 E SurfaceFlinger: trackPendingFrame: Invalid present fence
+07-08 05:20:51.874  7345  7345 I BSS_SysUiManager: handleMessage = 9, 0, 0
+07-08 05:20:51.903 21240 21261 I AdrenoVK-0: Shader compilation failed for shaderType: 0
+07-08 05:20:51.903 21240 21261 I AdrenoVK-0: Pipeline create failed
+07-08 05:20:51.907 21240 21261 I AdrenoVK-0: Shader compilation failed for shaderType: 0
+07-08 05:20:51.907 21240 21261 I AdrenoVK-0: Pipeline create failed
+07-08 05:20:51.912 21240 21261 I BLASTBufferQueue: [VRI[MainActivity]@74e2437#0](f:0,a:0,s:0) onFrameAvailable the first frame is available
+07-08 05:20:51.912 21240 21261 I SurfaceComposerClient: apply transaction with the first frame. layerId: 81478, bufferData(ID: 91225105367043, frameNumber: 1)
+07-08 05:20:51.912 21240 21261 I VRI[MainActivity]@74e2437: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+07-08 05:20:51.912  1930  5020 I SurfaceFlinger: [com.infinity.companion/com.infinity.companion.MainActivity$_21240#81478] setTransactionState with the first frame. bufferData(ID: 91225105367043, frameNumber: 1)
+07-08 05:20:51.913 21240 21261 D HWUI    : CFMS:: SetUp Pid : 21240    Tid : 21261
+07-08 05:20:51.913 21240 21240 D VRI[MainActivity]@74e2437: reportDrawFinished seqId=0
+07-08 05:20:51.913  2936  4907 W libbinder.ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10560 pid=0
+07-08 05:20:51.913  2936  4907 D libbinder.PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10560 => denied (59 us)
+07-08 05:20:51.913  2936  4907 W libbinder.ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10560 pid=0
+07-08 05:20:51.913  2936  4907 D libbinder.PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10560 => denied (8 us)
+07-08 05:20:51.913  2936  4907 W libbinder.ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10560 pid=0
+07-08 05:20:51.913  2936  4907 D libbinder.PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10560 => denied (6 us)
+07-08 05:20:51.913 21240 21240 I VRI[MainActivity]@74e2437: stopped(true) old = false
+07-08 05:20:51.913 21240 21240 D VRI[MainActivity]@74e2437: WindowStopped on com.infinity.companion/com.infinity.companion.MainActivity set to true
+07-08 05:20:51.913 21240 21261 D HWUI    : CacheManager::trimMemory(20)
+07-08 05:20:51.914  4266  4557 D ShellTaskOrganizer: removeStartingWindow, removalInfo=StartingWindowRemovalInfo{taskId=3222 frame=null playRevealAnimation=false roundedCornerRadius=0.0 deferRemoveMode=0 windowlessSurface=false removeImmediately=false}
+07-08 05:20:51.914  2936  2988 I PkgPredictorService-SecIpmManagerServiceImpl: reportToNAP uid:10560 com.infinity.companion/com.infinity.companion.MainActivity thisTime:459
+07-08 05:20:51.914  2936  2988 D PkgPredictorService-SecIpmManagerServiceImpl: reportToNAP: mHeavyLaunchCounter is false
+07-08 05:20:51.914  2936  5432 D PkgPredictorService-SecIpmManagerServiceImpl: ACTION_FOREGROUND_FINISH_EVENT sCurForegroundApp :com.infinity.companion
+07-08 05:20:51.915  2936  2988 I ActivityTaskManager: Displayed com.infinity.companion/.MainActivity for user 0: +459ms
+07-08 05:20:51.915  5586  5586 E pageboostd: Received HALT command code 2
+07-08 05:20:51.918 21240 21240 D LifecycleMonitor: Lifecycle status change: com.infinity.companion.MainActivity@3f77690 in: STOPPED
+07-08 05:20:51.919 21240 21240 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.infinity.companion.MainActivity@3f77690
+07-08 05:20:51.925  1839  2381 W SDM     : DisplayBase::ResetDispLayerStack: Stack did not clear in PostCommit. Clear now.
+07-08 05:20:51.925  1839  2381 W SDM     : DisplayBase::CommitOrPrepare: Prepare failed: 3
+07-08 05:20:51.925  1930  1930 E SurfaceFlinger: [StatusBar$_4266#95] Invalid device requested composition type change: Client (1) --> Device (2)
+07-08 05:20:51.925  1930  1930 E SurfaceFlinger: [NotificationShade$_4266#81368] Invalid device requested composition type change: Client (1) --> Device (2)
+07-08 05:20:51.925  1930  1930 E SurfaceFlinger: trackPendingFrame: Invalid present fence
+07-08 05:20:51.927  7166  8288 W RemoteWorkerFactory: [RemoteWorkerFactory] ID=10ebc907-f8d1-45fe-ac6f-1cf0280e129c, TAG=[com.samsung.android.smartsuggestions.search.data.apps.AppsDataWorker, CMD_UPDATE_LIST], WorkerClassName: androidx.work.multiprocess.RemoteListenableDelegatingWorker, RunAttemptCount=0
+07-08 05:20:51.928 10157 15045 W RemoteWorkerFactory: [RemoteWorkerFactory] ID=b3c2b808-6232-43a8-b649-71495882c261, TAG=[com.samsung.android.smartsuggestions.search.data.apps.AppsDataWorker, CMD_UPDATE_LIST], WorkerClassName: androidx.work.multiprocess.RemoteListenableDelegatingWorker, RunAttemptCount=0
+07-08 05:20:51.929 10944 15606 W RemoteWorkerFactory: [RemoteWorkerFactory] ID=d5600458-1dbb-4942-883a-a7f25b4454d3, TAG=[com.samsung.android.smartsuggestions.search.data.apps.AppsDataWorker, CMD_UPDATE_LIST], WorkerClassName: androidx.work.multiprocess.RemoteListenableDelegatingWorker, RunAttemptCount=0
+07-08 05:20:51.930   802   802 I WM-RemoteWorkerService: Binding to RemoteWorkerService
+07-08 05:20:51.931  2936  7262 I WindowManager: Relayout Window{26d684 u0 Splash Screen com.infinity.companion}: viewVisibility=8 req=1440x3120 ty=3 d0
+07-08 05:20:51.932  2936  7262 I WindowManager: Relayout hash=26d684, pid=4266, syncId=-1: mAttrs={(0,0)(fillxfill) sim={adjust=pan} layoutInDisplayCutoutMode=always ty=APPLICATION_STARTING fmt=TRANSLUCENT wanim=0x1030318
+07-08 05:20:51.932  2936  7262 I WindowManager:   fl=81030118
+07-08 05:20:51.932  2936  7262 I WindowManager:   pfl=10000810
+07-08 05:20:51.932  2936  7262 I WindowManager:   apr=18
+07-08 05:20:51.932  2936  7262 I WindowManager:   bhv=1
+07-08 05:20:51.932  2936  7262 I WindowManager:   fitSides=0
+07-08 05:20:51.932  2936  7262 I WindowManager:   frameRateBoostOnTouch=true
+07-08 05:20:51.932  2936  7262 I WindowManager:   dvrrWindowFrameRateHint=true naviIconColor=0}
+07-08 05:20:51.933  4266  4589 I VRI[companion]@b29b948: Relayout returned: old=(0,0,1440,3120) new=(0,0,1440,3120) relayoutAsync=false req=(1440,3120)8 dur=2 res=0x2 s={false 0x0} ch=true seqId=0
+07-08 05:20:51.933  4266  4589 D VRI[companion]@b29b948: Not drawing due to not visible. Reason=View.GONE
+07-08 05:20:51.934  4266  4589 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): null
+07-08 05:20:51.934   802  4333 W RemoteWorkerFactory: [RemoteWorkerFactory] ID=10ebc907-f8d1-45fe-ac6f-1cf0280e129c, TAG=[com.samsung.android.smartsuggestions.search.data.apps.AppsDataWorker, CMD_UPDATE_LIST], WorkerClassName: com.samsung.android.smartsuggestions.search.data.apps.AppsDataWorker, RunAttemptCount=0
+07-08 05:20:51.934  4266  4589 I VRI[companion]@b29b948: dispatchDetachedFromWindow
+07-08 05:20:51.935  2936  7262 D InputTransport: Input channel destroyed: '26d684 ', fd=1557
+07-08 05:20:51.935   802   875 I SSS@search user 0: (AppsDataWorker) [androidx.work-1] entering in doWork():
+07-08 05:20:51.935   802   875 I SSS@search user 0: (AppsDataObserver) [androidx.work-1] entering in execute():
+07-08 05:20:51.935   802   875 I SSS@search user 0: (AppsDataObserver-CMD_UPDATE_LIST) changed package count: 2
+07-08 05:20:51.935 21240 21261 D HWUI    : CacheManager::trimMemory(20)
+07-08 05:20:51.935  4266  4589 D InputTransport: Input channel destroyed: '26d684 ', fd=746
+07-08 05:20:51.936  2936  6100 I WindowManager: Relayout Window{f58a744 u0 com.infinity.companion/com.infinity.companion.MainActivity}: viewVisibility=4 req=1440x3120 ty=1 d0
+07-08 05:20:51.936  2936  6100 I WindowManager: Relayout hash=f58a744, pid=21240, syncId=-1: mAttrs={(0,0)(fillxfill) sim={adjust=pan forwardNavigation} layoutInDisplayCutoutMode=always ty=BASE_APPLICATION wanim=0x1030318
+07-08 05:20:51.936  2936  6100 I WindowManager:   fl=81810100
+07-08 05:20:51.936  2936  6100 I WindowManager:   pfl=100088c0
+07-08 05:20:51.936  2936  6100 I WindowManager:   bhv=1
+07-08 05:20:51.936  2936  6100 I WindowManager:   fitSides=0
+07-08 05:20:51.936  2936  6100 I WindowManager:   frameRateBoostOnTouch=true
+07-08 05:20:51.936  2936  6100 I WindowManager:   dvrrWindowFrameRateHint=true naviIconColor=0}
+07-08 05:20:51.936 21240 21240 I VRI[MainActivity]@74e2437: Relayout returned: old=(0,0,1440,3120) new=(0,0,1440,3120) relayoutAsync=false req=(1440,3120)4 dur=0 res=0x2 s={false 0x0} ch=false seqId=0
+07-08 05:20:51.936 21240 21240 D VRI[MainActivity]@74e2437: Not drawing due to not visible. Reason=View.INVISIBLE
+07-08 05:20:51.936  8382  8382 I WM-RemoteWorkerService: Binding to RemoteWorkerService
+07-08 05:20:51.939 21240 21240 I VRI[MainActivity]@74e2437: handleAppVisibility mAppVisible = true visible = false
+07-08 05:20:51.939  8382  9026 W RemoteWorkerFactory: [RemoteWorkerFactory] ID=d5600458-1dbb-4942-883a-a7f25b4454d3, TAG=[com.samsung.android.smartsuggestions.search.data.apps.AppsDataWorker, CMD_UPDATE_LIST], WorkerClassName: com.samsung.android.smartsuggestions.search.data.apps.AppsDataWorker, RunAttemptCount=0
+07-08 05:20:51.940  8382  8586 I SSS@search user 150: (AppsDataWorker) [androidx.work-2] entering in doWork():
+07-08 05:20:51.940  8382  8586 I SSS@search user 150: (AppsDataObserver) [androidx.work-2] entering in execute():
+07-08 05:20:51.940  8382  8586 I SSS@search user 150: (AppsDataObserver-CMD_UPDATE_LIST) changed package count: 2
+07-08 05:20:51.941   803   803 I WM-RemoteWorkerService: Binding to RemoteWorkerService
+07-08 05:20:51.942  9973  7578 I Routine@Core[5.0.03.22]: ActivityWatcherListenerImpl: onStopComponent: componentName - com.infinity.companion, userId: 0
+07-08 05:20:51.943   802   875 I SSS@search user 0: (IndexManager) [androidx.work-1] entering in updateIndex():
+07-08 05:20:51.943   802   875 I SSS@search user 0: (IndexManager) [UPDATE] index=com.samsung.android.apps, size=1, documents=[com.infinity.companion@0@com.infinity.companion.MainActivity]
+07-08 05:20:51.943   802   875 I SSS@search user 0: (IndexManager) [androidx.work-1] entering in updateDocumentList():  index: com.samsung.android.apps, updateList.size:1
+07-08 05:20:51.943   802   875 I SSS@search user 0: (IndexManager) getIndexStorage(): indexName com.samsung.android.apps
+07-08 05:20:51.944  9973  7578 I Routine@Core[5.0.03.22]: Pref: removeSharedPrefsData() key=condition_launch_game_data_resume_pkg
+07-08 05:20:51.944   803 23541 W RemoteWorkerFactory: [RemoteWorkerFactory] ID=b3c2b808-6232-43a8-b649-71495882c261, TAG=[com.samsung.android.smartsuggestions.search.data.apps.AppsDataWorker, CMD_UPDATE_LIST], WorkerClassName: com.samsung.android.smartsuggestions.search.data.apps.AppsDataWorker, RunAttemptCount=0
+07-08 05:20:51.944   803   880 I SSS@search user 10: (AppsDataWorker) [androidx.work-2] entering in doWork():
+07-08 05:20:51.944   803   880 I SSS@search user 10: (AppsDataObserver) [androidx.work-2] entering in execute():
+07-08 05:20:51.944   803   880 I SSS@search user 10: (AppsDataObserver-CMD_UPDATE_LIST) changed package count: 2
+07-08 05:20:51.944   802   875 I SSS@search user 0: (IndexManager) [UPDATE] Done indexName: com.samsung.android.apps normalDocuments.size():1 nestedDocuments.size():0
+07-08 05:20:51.944   802   875 I SSS@search user 0: (IndexSearcherManager) [androidx.work-1] entering in refreshSearcherManager():  refreshSearcherManager for com.samsung.android.apps
+07-08 05:20:51.945  8382  8586 I SSS@search user 150: (IndexManager) [androidx.work-2] entering in updateIndex():
+07-08 05:20:51.945  8382  8586 I SSS@search user 150: (IndexManager) [UPDATE] index=com.samsung.android.apps, size=1, documents=[com.infinity.companion@0@com.infinity.companion.MainActivity]
+07-08 05:20:51.945  8382  8586 I SSS@search user 150: (IndexManager) [androidx.work-2] entering in updateDocumentList():  index: com.samsung.android.apps, updateList.size:1
+07-08 05:20:51.945  8382  8586 I SSS@search user 150: (IndexManager) getIndexStorage(): indexName com.samsung.android.apps
+07-08 05:20:51.946  8382  8586 I SSS@search user 150: (IndexManager) [UPDATE] Done indexName: com.samsung.android.apps normalDocuments.size():1 nestedDocuments.size():0
+07-08 05:20:51.946  8382  8586 I SSS@search user 150: (IndexSearcherManager) [androidx.work-2] entering in refreshSearcherManager():  refreshSearcherManager for com.samsung.android.apps
+07-08 05:20:51.948   802   875 I SSS@search user 0: (IndexSearcherManager) [androidx.work-1] leaving from refreshSearcherManager():
+07-08 05:20:51.948   802   875 I SSS@search user 0: (IndexManager) [androidx.work-1] leaving from updateIndex, result = true():
+07-08 05:20:51.948   802   875 I SSS@search user 0: (AppsDataObserver) [androidx.work-1] leaving from execute():  result is true
+07-08 05:20:51.948   802   875 I SSS@search user 0: (AppsDataWorker) [androidx.work-1] leaving from doWork():
+07-08 05:20:51.948   802 14454 I SSS@search user 0: (IndexManager) [pool-36-thread-1] entering in commitIndexStorage():
+07-08 05:20:51.949  7166  8287 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=10ebc907-f8d1-45fe-ac6f-1cf0280e129c, tags={ com.samsung.android.smartsuggestions.search.data.apps.AppsDataWorker,CMD_UPDATE_LIST } ]
+07-08 05:20:51.949   803   880 I SSS@search user 10: (IndexManager) [androidx.work-2] entering in updateIndex():
+07-08 05:20:51.949   803   880 I SSS@search user 10: (IndexManager) [UPDATE] index=com.samsung.android.apps, size=1, documents=[com.infinity.companion@0@com.infinity.companion.MainActivity]
+07-08 05:20:51.949   803   880 I SSS@search user 10: (IndexManager) [androidx.work-2] entering in updateDocumentList():  index: com.samsung.android.apps, updateList.size:1
+07-08 05:20:51.949   803   880 I SSS@search user 10: (IndexManager) getIndexStorage(): indexName com.samsung.android.apps
+07-08 05:20:51.951  8382  8586 I SSS@search user 150: (IndexSearcherManager) [androidx.work-2] leaving from refreshSearcherManager():
+07-08 05:20:51.951  8382  8586 I SSS@search user 150: (IndexManager) [androidx.work-2] leaving from updateIndex, result = true():
+07-08 05:20:51.951  8382  8586 I SSS@search user 150: (AppsDataObserver) [androidx.work-2] leaving from execute():  result is true
+07-08 05:20:51.951  8382  8586 I SSS@search user 150: (AppsDataWorker) [androidx.work-2] leaving from doWork():
+07-08 05:20:51.951  8382  8520 I SSS@search user 150: (IndexManager) [pool-25-thread-1] entering in commitIndexStorage():
+07-08 05:20:51.951   803   880 I SSS@search user 10: (IndexManager) [UPDATE] Done indexName: com.samsung.android.apps normalDocuments.size():1 nestedDocuments.size():0
+07-08 05:20:51.951   803   880 I SSS@search user 10: (IndexSearcherManager) [androidx.work-2] entering in refreshSearcherManager():  refreshSearcherManager for com.samsung.android.apps
+07-08 05:20:51.952 10944 15606 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=d5600458-1dbb-4942-883a-a7f25b4454d3, tags={ com.samsung.android.smartsuggestions.search.data.apps.AppsDataWorker,CMD_UPDATE_LIST } ]
+07-08 05:20:51.955  2936 32224 D BSOHChargingDataCollector:  BSOH Sys-servce ...
+07-08 05:20:51.955  2936 32224 D BSOHChargingDataCollector: performBatteryWork++
+07-08 05:20:51.955  2936 32224 D BSOHChargingDataCollector: performBatteryWork battery com.android.server.bsoh.device.PrimeBattery@edd9ecc
+07-08 05:20:51.955  2936 32224 D BSOHChargingDataCollector: primeBatt readVoltage from sysFsBattVolt,  path : /sys/class/power_supply/battery/batt_voltage_now
+07-08 05:20:51.956   803   880 I SSS@search user 10: (IndexSearcherManager) [androidx.work-2] leaving from refreshSearcherManager():
+07-08 05:20:51.956   803   880 I SSS@search user 10: (IndexManager) [androidx.work-2] leaving from updateIndex, result = true():
+07-08 05:20:51.956   803   880 I SSS@search user 10: (AppsDataObserver) [androidx.work-2] leaving from execute():  result is true
+07-08 05:20:51.956   803   880 I SSS@search user 10: (AppsDataWorker) [androidx.work-2] leaving from doWork():
+07-08 05:20:51.956   803  8521 I SSS@search user 10: (IndexManager) [pool-24-thread-1] entering in commitIndexStorage():
+07-08 05:20:51.957 10157 14924 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=b3c2b808-6232-43a8-b649-71495882c261, tags={ com.samsung.android.smartsuggestions.search.data.apps.AppsDataWorker,CMD_UPDATE_LIST } ]
+07-08 05:20:51.957  1930  1930 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{com.infinity.companion/com.infinity.companion.MainActivity$_21240#81478} no children}] reparent to OffscreenRoot
+07-08 05:20:51.957  1930  1930 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{com.infinity.companion/com.infinity.companion.MainActivity$_21240#81478} no children}] RelativeParent to null
+07-08 05:20:51.958  1930  1930 I SurfaceFlinger: id=81478 Removed com.infinity.companion/com.infinity.companion.MainActivity$_21240#81478 (152)
+07-08 05:20:51.958  1839  2381 W SDM     : DisplayBase::ResetDispLayerStack: Stack did not clear in PostCommit. Clear now.
+07-08 05:20:51.958  1839  2381 W SDM     : DisplayBase::CommitOrPrepare: Prepare failed: 3
+07-08 05:20:51.958  1930  1930 E SurfaceFlinger: [StatusBar$_4266#95] Invalid device requested composition type change: Client (1) --> Device (2)
+07-08 05:20:51.958  1930  1930 E SurfaceFlinger: [NotificationShade$_4266#81368] Invalid device requested composition type change: Client (1) --> Device (2)
+07-08 05:20:51.958  1930  1930 E SurfaceFlinger: trackPendingFrame: Invalid present fence
+07-08 05:20:51.958   802   802 I SSS@search user 0: (SearchProvider) onTrimMemory(): 40
+07-08 05:20:51.959   802 14454 I SSS@search user 0: (IndexManager) [pool-36-thread-1] leaving from commitIndexStorage():
+07-08 05:20:51.960  8382  8520 I SSS@search user 150: (IndexManager) [pool-25-thread-1] leaving from commitIndexStorage():
+07-08 05:20:51.963   803  8521 I SSS@search user 10: (IndexManager) [pool-24-thread-1] leaving from commitIndexStorage():
+07-08 05:20:51.963  2936 32224 D BSOHChargingDataCollector: 0 	 BattData addData data : BattData { voltage:3.848, current:0.007812, soc:0.39, temperature:27.3, status:2, timestamp:1783468251963, voltage_chg:null}
+07-08 05:20:51.963  2936 32224 D BSOHChargingDataCollector: performBatteryWork--
+07-08 05:20:51.990  1930  1930 I SurfaceFlinger: destroyed com.infinity.companion/com.infinity.companion.MainActivity$_21240#81478 form LifecycleManager
+07-08 05:20:51.991  1930  1930 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{26d684 Splash Screen com.infinity.companion#81475 z=2147483647} 1 children}] reparent to OffscreenRoot
+07-08 05:20:51.991  1930  1930 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{26d684 Splash Screen com.infinity.companion#81475 z=2147483647} 1 children}] RelativeParent to null
+07-08 05:20:51.991  1930  1930 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{Splash Screen com.infinity.companion$_4266#81476} no children}] reparent to OffscreenRoot
+07-08 05:20:51.991  1930  1930 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{Splash Screen com.infinity.companion$_4266#81476} no children}] RelativeParent to null
+07-08 05:20:51.991  1930  1930 I SurfaceFlinger: id=81478 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{com.infinity.companion/com.infinity.companion.MainActivity$_21240#81478 !handle})
+07-08 05:20:51.991  1930  1930 I SurfaceFlinger: id=81478 Destroyed com.infinity.companion/com.infinity.companion.MainActivity$_21240#81478
+07-08 05:20:51.991  1930  1930 I SurfaceFlinger: id=81475 Removed 26d684 Splash Screen com.infinity.companion#81475 (151)
+07-08 05:20:51.991  1930  1930 I SurfaceFlinger: id=81476 Removed Splash Screen com.infinity.companion$_4266#81476 (151)
+07-08 05:20:51.992  1839  2381 W SDM     : DisplayBase::ResetDispLayerStack: Stack did not clear in PostCommit. Clear now.
+07-08 05:20:51.992  1839  2381 W SDM     : DisplayBase::CommitOrPrepare: Prepare failed: 3
+07-08 05:20:51.992  1930  1930 E SurfaceFlinger: [StatusBar$_4266#95] Invalid device requested composition type change: Client (1) --> Device (2)
+07-08 05:20:51.992  1930  1930 E SurfaceFlinger: [NotificationShade$_4266#81368] Invalid device requested composition type change: Client (1) --> Device (2)
+07-08 05:20:51.992  1930  1930 E SurfaceFlinger: trackPendingFrame: Invalid present fence
+07-08 05:20:52.001  1930  1989 I SurfaceFlinger: id=81479 createSurf, flag=24004, Task=3223#81479
+07-08 05:20:52.003  1930  1989 I SurfaceFlinger: id=81480 createSurf, flag=84004, ActivityRecord{64888766 u0 com.infinity.companion.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity t3223}#81480
+07-08 05:20:52.007  4266  4557 D ShellDesktopMode: handleRequest: TransitionRequestInfo {type=1, tid=3223, debugId=6660}
+07-08 05:20:52.007  2936  4907 I SemDvfsHyPerManager: acquire hyper - AMS_APP_LAUNCH/2936@22, type = -999
+07-08 05:20:52.007  5586  5586 E pageboostd: Received HALT command code 2
+07-08 05:20:52.007  1817  1973 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 4376383 [2936 / 22]  HINT : AMS_APP_LAUNCH   list :
+07-08 05:20:52.007  7346  7346 I SemDvfsHyPerManager: acquire hyper - APP_START/7346@26, type = -999
+07-08 05:20:52.008  4266  4589 D ViewRootImpl: desktopMode is false
+07-08 05:20:52.008  4266  4589 I ViewRootImpl: dVRR is disabled
+07-08 05:20:52.008  1817  1973 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 27176904 [7346 / 26]  HINT : APP_START   list :
+07-08 05:20:52.008  4266  4721 D NativeCustomFrequencyManager: [NativeCFMS] BpCustomFrequencyManager::BpCustomFrequencyManager()
+07-08 05:20:52.009  4960  5096 I HoneySpace.TopTaskSource: onTaskMovedToFront : taskId = 3223, displayId = 0
+07-08 05:20:52.010  4960  5098 I HoneySpace.TopTaskUseCase: topTasks 3223 ComponentInfo{com.infinity.companion.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}[displayId=0]
+07-08 05:20:52.010  2936  4907 D InputTransport: Input channel constructed: '78046d0', fd=1565
+07-08 05:20:52.010  2936  4907 D InputTransport: Input channel constructed: '78046d0', fd=1566
+07-08 05:20:52.010  1824  1824 I SS_POWER_HINT_SESSION: SS_ADPF 4266-10048-3ef0 PowerHintSession createHintSession : , 4719, 4720, 4589, 4721 : 16666667
+07-08 05:20:52.010  2936  4907 D InputTransport: Input channel constructed: '78046d0', fd=1564
+07-08 05:20:52.010  2936  4907 D InputTransport: Input channel destroyed: '78046d0', fd=1566
+07-08 05:20:52.010  1930  1989 I SurfaceFlinger: id=81481 createSurf, flag=84004, 78046d0 Splash Screen com.infinity.companion.test#81481
+07-08 05:20:52.010  1817  1973 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 773914328 [1824 / 37517]  HINT :     list : [TID_LOW_LATENCY / 1] [TID / 4719] [TID / 4720] [TID / 4589] [TID / 4721]
+07-08 05:20:52.010  2936  4907 D InputTransport: Input channel destroyed: '78046d0', fd=1564
+07-08 05:20:52.010  1817  1973 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 773914328 [1824 / 37517]  HINT :     list : [TID_LOW_LATENCY / 0] [TID / 4719] [TID / 4720] [TID / 4589] [TID / 4721]
+07-08 05:20:52.010  4266  4589 D InputTransport: Input channel constructed: '78046d0', fd=826
+07-08 05:20:52.010  1817  1973 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 773914328
+07-08 05:20:52.010  1817  1973 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 773953671 [1824 / 37518]  HINT :     list : [UCLAMP_MIN_BOOST / 0] [TIMEOUT / 50] [TID / 4719] [TID / 4720] [TID / 4589] [TID / 4721]
+07-08 05:20:52.010  4266  4589 I InsetsController: onStateChanged: host=Splash Screen com.infinity.companion.test, from=android.view.ViewRootImpl.onInsetsStateChanged:3038, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1440, 3120), mDisplayCutout=DisplayCutout{insets=Rect(0, 128 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(685, 0 - 755, 128), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1440 displayHeight=3120 physicalDisplayWidth=1440 physicalDisplayHeight=3120 density={3.75} cutoutSpec={M 0,0 H -9.333333333333333 V 34.13333333333333 H 9.333333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=53, center=Point(53, 53)}, RoundedCorner{position=TopRight, radius=53, center=Point(1387, 53)}, RoundedCorner{position=BottomRight, radius=53, center=Point(1387, 3067)}, RoundedCorner{position=BottomLeft, radius=53, center=Point(53, 3067)}]}  mRoundedCornerFrame=Rect(0, 0 - 1440, 3120), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(1286, 0 - 1440, 128) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1440 displayHeight=3120 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {c2290001 mType=navigationBars mFrame=[0,3067][1440,3120] mAttachedInsets=null mVisible=false mFlags=SUPPRESS_SCRIM mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {c2290004 mType=systemGestures mFrame=[0,0][105,3120] mAttachedInsets=null mVisible=true mFlags= mSideHint=LEFT mBoundingRects=null}, InsetsSource: {c2290005 mType=mandatorySystemGestures mFrame=[0,3008][1440,3120] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {c2290006 mType=tappableElement mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {c2290024 mType=systemGestures mFrame=[1335,0][1440,3120] mAttachedInsets=null mVisible=true mFlags= mSideHint=RIGHT mBoundingRects=null}, InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mAttachedInsets=null mVisible=false mFlags=INVALID mSideHint=NONE mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1440,128] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {14390000 mType=statusBars mFrame=[0,0][1440,128] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {14390005 mType=mandatorySystemGestures mFrame=[0,0][1440,170] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {14390006 mType=tappableElement mFrame=[0,0][1440,128] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null} }
+07-08 05:20:52.011  4266  4589 I VRI[test]@63cea90: synced displayState. AttachInfo displayState=4
+07-08 05:20:52.011  4960  5244 I HoneySpace.RecentTasks: onRecentTasksChanged l:14645982
+07-08 05:20:52.011  4266  4589 I VRI[test]@63cea90: setView = android.widget.FrameLayout@ad6329a IsHRR=false mFlingFrameRateChange=0 TM=true
+07-08 05:20:52.011  8085  8085 I InputMethodService: onNavButtonFlagsChanged: navButtonFlags=1 imeDrawsImeNavBar=true
+07-08 05:20:52.011  4266  4721 D HWUI    : HWUI - treat SMPTE_170M as sRGB
+07-08 05:20:52.012  4960 18054 I HoneySpace.HistoryViewModel@252414371@HomeOnly: Illegal access. Unknown type. skip load history items
+07-08 05:20:52.018  1817 21292 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 773874986
+07-08 05:20:52.021  1707  1707 D Zygote  : Forked child process 21304
+07-08 05:20:52.024  1930  1930 I SurfaceFlinger: [Display 0 name="Built-in Screen"#41] setFrameRateCategory: High
+07-08 05:20:52.024  1930  1930 I SurfaceFlinger: destroyed 26d684 Splash Screen com.infinity.companion#81475 form LifecycleManager
+07-08 05:20:52.024  1930  1930 I SurfaceFlinger: destroyed Splash Screen com.infinity.companion$_4266#81476 form LifecycleManager
+07-08 05:20:52.024  1930  1930 I SurfaceFlinger: [78046d0 Splash Screen com.infinity.companion.test#81481] attach to parent LayerHierarchy{RequestedLayerState{ActivityRecord{64888766 u0 com.infinity.companion.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity t3223}#81480 parentId=81479} 1 children}
+07-08 05:20:52.024  1930  1930 I SurfaceFlinger: [ActivityRecord{64888766 u0 com.infinity.companion.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity t3223}#81480] attach to parent LayerHierarchy{RequestedLayerState{Task=3223#81479 parentId=10} 1 children}
+07-08 05:20:52.024  1930  1930 I SurfaceFlinger: [Task=3223#81479] attach to parent LayerHierarchy{RequestedLayerState{DefaultTaskDisplayArea_d0#10 parentId=9} 8 children}
+07-08 05:20:52.024  1930  1930 I SurfaceFlinger: id=81475 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{26d684 Splash Screen com.infinity.companion#81475 !handle z=2147483647})
+07-08 05:20:52.024  1930  1930 I SurfaceFlinger: id=81476 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{Splash Screen com.infinity.companion$_4266#81476 !handle})
+07-08 05:20:52.024  1930  1930 I SurfaceFlinger: id=81475 Destroyed 26d684 Splash Screen com.infinity.companion#81475
+07-08 05:20:52.024  1930  1930 I SurfaceFlinger: id=81476 Destroyed Splash Screen com.infinity.companion$_4266#81476
+07-08 05:20:52.024  1839  2381 W SDM     : DisplayBase::ResetDispLayerStack: Stack did not clear in PostCommit. Clear now.
+07-08 05:20:52.025  1839  2381 W SDM     : DisplayBase::CommitOrPrepare: Prepare failed: 3
+07-08 05:20:52.025  1930  1930 E SurfaceFlinger: [StatusBar$_4266#95] Invalid device requested composition type change: Client (1) --> Device (2)
+07-08 05:20:52.025  1930  1930 E SurfaceFlinger: [NotificationShade$_4266#81368] Invalid device requested composition type change: Client (1) --> Device (2)
+07-08 05:20:52.025  1930  1930 E SurfaceFlinger: trackPendingFrame: Invalid present fence
+07-08 05:20:52.025  4266  4266 D DisplayLifecycle: updateDisplay id = 0
+07-08 05:20:52.025  4266  4632 D StackScroller: onDisplayChanged for predraw skip to 4
+07-08 05:20:52.025  4266  4266 I AODTriggers: onAODEventDispatched = 4 / eventData = aod.p0@dbaa7cb
+07-08 05:20:52.025  4266  4266 I AOD_LIVE_CLOCK@LiveClockController: updateDisplayState: DISPLAY_STATE_DOZE_SUSPEND
+07-08 05:20:52.029 21304 21304 I Zygote  : Process 21304 created for com.infinity.companion.test
+07-08 05:20:52.029 21304 21304 I .companion.test: Late-enabling -Xcheck:jni
+07-08 05:20:52.043 21304 21304 I .companion.test: Using CollectorTypeCMC GC.
+07-08 05:20:52.045  5794  5911 I adbd    : jdwp connection from 21304
+07-08 05:20:52.048 21304 21304 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+07-08 05:20:52.049 21304 21304 D ActivityThread: setConscryptValidator
+07-08 05:20:52.049 21304 21304 D ActivityThread: setConscryptValidator - put
+07-08 05:20:52.050  4266  4589 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda16@99b7ba8
+07-08 05:20:52.051  2936  3648 I WindowManager: Relayout Window{78046d0 u0 Splash Screen com.infinity.companion.test}: viewVisibility=0 req=1440x3120 ty=3 d0
+07-08 05:20:52.051  1930  1989 I SurfaceFlinger: id=81482 createSurf, flag=44004, Splash Screen com.infinity.companion.test$_4266#81482
+07-08 05:20:52.053  2936  3648 I WindowManager: Relayout hash=78046d0, pid=4266, syncId=-1: mAttrs={(0,0)(fillxfill) sim={adjust=pan} layoutInDisplayCutoutMode=always ty=APPLICATION_STARTING fmt=TRANSLUCENT
+07-08 05:20:52.053  2936  3648 I WindowManager:   fl=81030118
+07-08 05:20:52.053  2936  3648 I WindowManager:   pfl=10000810
+07-08 05:20:52.053  2936  3648 I WindowManager:   apr=18
+07-08 05:20:52.053  2936  3648 I WindowManager:   bhv=1
+07-08 05:20:52.053  2936  3648 I WindowManager:   fitSides=0
+07-08 05:20:52.053  2936  3648 I WindowManager:   frameRateBoostOnTouch=true
+07-08 05:20:52.053  2936  3648 I WindowManager:   dvrrWindowFrameRateHint=true naviIconColor=0}
+07-08 05:20:52.053  4266  4589 I BufferQueueProducer: [](id:10aa0000158d,api:0,p:0,c:4266) setDequeueTimeout:2077252342
+07-08 05:20:52.053  4266  4589 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= VRI[test]@63cea90 mNativeObject= 0xb400007b75b79ce0 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3603 android.view.ViewRootImpl.relayoutWindow:11813 android.view.ViewRootImpl.performTraversals:4840 android.view.ViewRootImpl.doTraversal:3959 android.view.ViewRootImpl$TraversalRunnable.run:13034 android.view.Choreographer$CallbackRecord.run:1961 android.view.Choreographer$CallbackRecord.run:1970 android.view.Choreographer.doCallbacks:1423 android.view.Choreographer.doFrame:1348 android.view.Choreographer$FrameDisplayEventReceiver.run:1930
+07-08 05:20:52.053  4266  4589 I BLASTBufferQueue_Java: update, w= 1440 h= 3120 mName = VRI[test]@63cea90 mNativeObject= 0xb400007b75b79ce0 sc.mNativeObject= 0xb400007d55b0d690 format= -3 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3608 android.view.ViewRootImpl.relayoutWindow:11813 android.view.ViewRootImpl.performTraversals:4840 android.view.ViewRootImpl.doTraversal:3959 android.view.ViewRootImpl$TraversalRunnable.run:13034 android.view.Choreographer$CallbackRecord.run:1961
+07-08 05:20:52.053  4266  4589 I VRI[test]@63cea90: Relayout returned: old=(0,0,1440,3120) new=(0,0,1440,3120) relayoutAsync=false req=(1440,3120)0 dur=3 res=0x3 s={true 0xb400007bf5e7f120} ch=true seqId=0
+07-08 05:20:52.053  4266  4557 I SurfaceControlRegistry: apply, t=StartTransaction_SyncId<6660>, caller=android.view.SurfaceControl$Transaction.apply:3581 android.view.SurfaceControl$Transaction.apply:3569 android.view.SurfaceControl$Transaction.apply:3519 com.android.wm.shell.transition.Transitions.processReadyQueue:253 com.android.wm.shell.transition.Transitions.onAbort:95 com.android.wm.shell.transition.Transitions.dispatchReady:333
+07-08 05:20:52.054  4266  4557 I SurfaceControlRegistry: apply, t=FinishTransaction_SyncId<6660>, caller=android.view.SurfaceControl$Transaction.apply:3581 android.view.SurfaceControl$Transaction.apply:3569 android.view.SurfaceControl$Transaction.apply:3519 com.android.wm.shell.transition.Transitions.onFinish:381 com.android.wm.shell.transition.Transitions.processReadyQueue:258 com.android.wm.shell.transition.Transitions.onAbort:95
+07-08 05:20:52.054  4266  4589 D VRI[test]@63cea90: mThreadedRenderer.initialize() mSurface={isValid=true 0xb400007bf5e7f120} hwInitialized=true
+07-08 05:20:52.054  2936  2989 D PkgPredictorService-SecIpmManagerServiceImpl: onForegroundActivitiesChanged pid:21304 uid:10561
+07-08 05:20:52.054  4266  4589 D VRI[test]@63cea90: reportNextDraw android.view.ViewRootImpl.performTraversals:5507 android.view.ViewRootImpl.doTraversal:3959 android.view.ViewRootImpl$TraversalRunnable.run:13034 android.view.Choreographer$CallbackRecord.run:1961 android.view.Choreographer$CallbackRecord.run:1970
+07-08 05:20:52.054  4266  4589 D VRI[test]@63cea90: Setup new sync=wmsSync-VRI[test]@63cea90#38
+07-08 05:20:52.054  4266  4589 I VRI[test]@63cea90: Creating new active sync group VRI[test]@63cea90#39
+07-08 05:20:52.055  2936  5432 V PkgPredictorService-SecIpmManagerServiceImpl: discard foreground app:com.infinity.companion.test 0|true
+07-08 05:20:52.055  2936  2989 D NetworkPolicy: already checked 10561
+07-08 05:20:52.055  4266  4589 D VRI[test]@63cea90: registerCallbacksForSync syncBuffer=false
+07-08 05:20:52.056 15681 15688 I SAMSUNGWALLET: [Hint_ProcessStatusChange] fg Change, pid : 21304 , isNotify : true , isForeground : true , fg list : []
+07-08 05:20:52.056  4266  4720 D VRI[test]@63cea90: Received frameDrawingCallback syncResult=0 frameNum=1.
+07-08 05:20:52.056  4266  4720 I VRI[test]@63cea90: mWNT: t=0xb400007c35ba9b20 mBlastBufferQueue=0xb400007b75b79ce0 fn= 1 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$12.onFrameDraw:15561 android.view.ThreadedRenderer$1.onFrameDraw:751 <bottom of call stack>
+07-08 05:20:52.056  4266  4720 I VRI[test]@63cea90: Setting up sync and frameCommitCallback
+07-08 05:20:52.057  4266  4721 I BLASTBufferQueue: [VRI[test]@63cea90#5516](f:0,a:0,s:0) onFrameAvailable the first frame is available
+07-08 05:20:52.057  4266  4721 I SurfaceComposerClient: apply transaction with the first frame. layerId: 81482, bufferData(ID: 18322330522312, frameNumber: 1)
+07-08 05:20:52.057  1930  1930 I SurfaceFlinger: RequestedLayer [78046d0 Splash Screen com.infinity.companion.test#81481] hidden!! flag  from(1) --> to(0)
+07-08 05:20:52.057  1930  1930 I SurfaceFlinger: [Display 0 name="Built-in Screen"#41] setFrameRateCategory: Default
+07-08 05:20:52.057  1930  1930 I SurfaceFlinger: [Splash Screen com.infinity.companion.test$_4266#81482] attach to parent LayerHierarchy{RequestedLayerState{78046d0 Splash Screen com.infinity.companion.test#81481 parentId=81480 z=2147483647} 1 children}
+07-08 05:20:52.058  4266  4721 I VRI[test]@63cea90: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+07-08 05:20:52.058  1930  1989 I SurfaceFlinger: [Splash Screen com.infinity.companion.test$_4266#81482] setTransactionState with the first frame. bufferData(ID: 18322330522312, frameNumber: 1)
+07-08 05:20:52.058  1839  2381 W SDM     : DisplayBase::ResetDispLayerStack: Stack did not clear in PostCommit. Clear now.
+07-08 05:20:52.058  1839  2381 W SDM     : DisplayBase::CommitOrPrepare: Prepare failed: 3
+07-08 05:20:52.058  1930  1930 E SurfaceFlinger: [StatusBar$_4266#95] Invalid device requested composition type change: Client (1) --> Device (2)
+07-08 05:20:52.058  1930  1930 E SurfaceFlinger: [NotificationShade$_4266#81368] Invalid device requested composition type change: Client (1) --> Device (2)
+07-08 05:20:52.058 15681 15688 I SAMSUNGWALLET: [Hint_ProcessStatusChange] fg Change, pid : 21304 , isNotify : false , isForeground : true , fg list : []
+07-08 05:20:52.058  1930  1930 E SurfaceFlinger: trackPendingFrame: Invalid present fence
+07-08 05:20:52.059  4266  4721 D HWUI    : CFMS:: SetUp Pid : 4266    Tid : 4721
+07-08 05:20:52.059  4266  4589 D VRI[test]@63cea90: reportDrawFinished seqId=0
+07-08 05:20:52.059  4266  4266 D DisplayLifecycle: updateDisplay id = 0
+07-08 05:20:52.059  4266  4266 I AODTriggers: onAODEventDispatched = 4 / eventData = aod.p0@28eccf9
+07-08 05:20:52.059  4266  4266 I AOD_LIVE_CLOCK@LiveClockController: updateDisplayState: DISPLAY_STATE_DOZE_SUSPEND
+07-08 05:20:52.059  4960 22356 I HoneySpace.LauncherProvider: call - com.samsung.android.spay, get_rotation_state, null
+07-08 05:20:52.059  4960 22356 I HoneySpace.ExternalMethodItem: updateRefsItemsByEntryPoints. HoneySpaceInfo(name=HomeOnly, displayId=0)
+07-08 05:20:52.059  2936  2989 D NetworkPolicy: already checked 10561
+07-08 05:20:52.059  4266  4632 D StackScroller: onDisplayChanged for predraw skip to 4
+07-08 05:20:52.059 15681 15790 I SAMSUNGWALLET: [Hint_PayHintService] mIsLauncherPortraitOnlyMode: true, mIsUserLock: true
+07-08 05:20:52.060  4960 18054 I HoneySpace.RecentTasks: onRunningTaskAppeared
+07-08 05:20:52.060  4960  5244 I HoneySpace.RecentTasks: onRecentTasksChanged l:14645982
+07-08 05:20:52.060  5998  6035 V OsAgent : broadcastSystemEvent - 7
+07-08 05:20:52.061  1817 21303 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 773953671
+07-08 05:20:52.061 15681 15681 I SAMSUNGWALLET: [Hint_PayHintService] Hint Status - already invisible, skip hide : [3] - 3
+07-08 05:20:52.061  4960 18062 I HoneySpace.HistoryViewModel@252414371@HomeOnly: Illegal access. Unknown type. skip load history items
+07-08 05:20:52.062 21304 21304 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+07-08 05:20:52.063 21304 21304 D nativeloader: Configuring clns-9 for other apk /system/framework/android.test.mock.jar. target_sdk_version=35, uses_libraries=ALL, library_path=/data/app/~~Z4rlO0C5oSnqu6GeeduxwQ==/com.infinity.companion.test-0FASsh8sYE_9csXCZj0xzg==/lib/arm64, permitted_path=/data:/mnt/expand:/data/user/0/com.infinity.companion.test
+07-08 05:20:52.063 21304 21304 D nativeloader: Extending system_exposed_libraries: libhumantracking.arcsoft.so:libface_recognition.arcsoft.so:libgallery_pic_best.arcsoft.so:libPortraitDistortionCorrection.arcsoft.so:libPortraitDistortionCorrectionCali.arcsoft.so:libface_landmark.arcsoft.so:libFacialStickerEngine.arcsoft.so:libfrtracking_engine.arcsoft.so:libFaceRecognition.arcsoft.so:libveengine.arcsoft.so:lib_pet_detection.arcsoft.so:libae_bracket_hdr.arcsoft.so:libhybrid_high_dynamic_range.arcsoft.so:libimage_enhancement.arcsoft.so:libFacialAttributeDetection.arcsoft.so:libobjectcapture_jni.arcsoft.so:libobjectcapture.arcsoft.so:libmultisourceseparator.audio.samsung.so:libaudiomirroring_jni.audiomirroring.samsung.so:libBeauty_v4.camera.samsung.so:libexifa.camera.samsung.so:libjpega.camera.samsung.so:libOpenCv.camera.samsung.so:libAIDeflicker.camera.samsung.so:libDeflickerHDR.camera.samsung.so:libaifrcInterface.camera.samsung.so:libBestPhoto.camera.samsung.so:libC2paDps.camera.samsung.so:libVideoClassifier.camera.samsung.so:libImageScreener.camera.samsu
+07-08 05:20:52.063 21304 21304 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+07-08 05:20:52.063 21304 21304 D nativeloader: Configuring clns-10 for other apk /system/framework/android.test.runner.jar. target_sdk_version=35, uses_libraries=ALL, library_path=/data/app/~~Z4rlO0C5oSnqu6GeeduxwQ==/com.infinity.companion.test-0FASsh8sYE_9csXCZj0xzg==/lib/arm64, permitted_path=/data:/mnt/expand:/data/user/0/com.infinity.companion.test
+07-08 05:20:52.064 21304 21304 D nativeloader: Extending system_exposed_libraries: libhumantracking.arcsoft.so:libface_recognition.arcsoft.so:libgallery_pic_best.arcsoft.so:libPortraitDistortionCorrection.arcsoft.so:libPortraitDistortionCorrectionCali.arcsoft.so:libface_landmark.arcsoft.so:libFacialStickerEngine.arcsoft.so:libfrtracking_engine.arcsoft.so:libFaceRecognition.arcsoft.so:libveengine.arcsoft.so:lib_pet_detection.arcsoft.so:libae_bracket_hdr.arcsoft.so:libhybrid_high_dynamic_range.arcsoft.so:libimage_enhancement.arcsoft.so:libFacialAttributeDetection.arcsoft.so:libobjectcapture_jni.arcsoft.so:libobjectcapture.arcsoft.so:libmultisourceseparator.audio.samsung.so:libaudiomirroring_jni.audiomirroring.samsung.so:libBeauty_v4.camera.samsung.so:libexifa.camera.samsung.so:libjpega.camera.samsung.so:libOpenCv.camera.samsung.so:libAIDeflicker.camera.samsung.so:libDeflickerHDR.camera.samsung.so:libaifrcInterface.camera.samsung.so:libBestPhoto.camera.samsung.so:libC2paDps.camera.samsung.so:libVideoClassifier.camera.samsung.so:libImageScreener.camera.samsu
+07-08 05:20:52.074 21304 21304 D nativeloader: Configuring clns-11 for other apk /data/app/~~Z4rlO0C5oSnqu6GeeduxwQ==/com.infinity.companion.test-0FASsh8sYE_9csXCZj0xzg==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~Z4rlO0C5oSnqu6GeeduxwQ==/com.infinity.companion.test-0FASsh8sYE_9csXCZj0xzg==/lib/arm64, permitted_path=/data:/mnt/expand:/data/user/0/com.infinity.companion.test
+07-08 05:20:52.074 21304 21304 D CompatChangeReporter: Compat change id reported: 202956589; UID 10561; state: ENABLED
+07-08 05:20:52.076 21304 21304 V GraphicsEnvironment: Currently set values for:
+07-08 05:20:52.076 21304 21304 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+07-08 05:20:52.076 21304 21304 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+07-08 05:20:52.076 21304 21304 V GraphicsEnvironment: com.infinity.companion.test is not listed in per-application setting
+07-08 05:20:52.076 21304 21304 V GraphicsEnvironment: ANGLE allowlist from config: com.dreamgames.royalmatch com.dts.freefiremax com.dxx.firenow com.gramgames.mergedragons com.ludo.king com.mojang.minecraftpe com.my.defense com.nintendo.zaka com.os.airforce com.playrix.fishdomdd.gplay io.teslatech.callbreak jp.konami.prospia net.peakgames.toonblast
+07-08 05:20:52.076 21304 21304 V GraphicsEnvironment: No special selections for ANGLE, returning default driver choice
+07-08 05:20:52.076 21304 21304 V GraphicsEnvironment: App is not on the allowlist for updatable production driver.
+07-08 05:20:52.091  1839  2381 W SDM     : DisplayBase::ResetDispLayerStack: Stack did not clear in PostCommit. Clear now.
+07-08 05:20:52.091  1839  2381 W SDM     : DisplayBase::CommitOrPrepare: Prepare failed: 3
+07-08 05:20:52.091  1930  1930 E SurfaceFlinger: [StatusBar$_4266#95] Invalid device requested composition type change: Client (1) --> Device (2)
+07-08 05:20:52.091  1930  1930 E SurfaceFlinger: [NotificationShade$_4266#81368] Invalid device requested composition type change: Client (1) --> Device (2)
+07-08 05:20:52.091  1930  1930 E SurfaceFlinger: trackPendingFrame: Invalid present fence
+07-08 05:20:52.092  2936  4907 D InputDispatcher: Focused application(0): ActivityRecord{64888766 u0 com.infinity.companion.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity t3223}
+07-08 05:20:52.092  2936  3745 D AS.MultiSoundManager: mForegroundUid = 10561
+07-08 05:20:52.093  4266  4266 I {OngoingActivityController}: onTaskFocusChanged but OA data is empty
+07-08 05:20:52.093  4960  5096 I HoneySpace.TopTaskSource: onTaskFocusChanged(): taskId = 3223
+07-08 05:20:52.093  2936  4907 D GraphicsStatsService: requestRenderEngineFor(com.infinity.companion.test)
+07-08 05:20:52.093 21304 21304 D HWUI    : HWUI - treat SMPTE_170M as sRGB
+07-08 05:20:52.095 21304 21320 D HWUI    : CacheManager constructor. deviceInfo=(1080, 1920)
+07-08 05:20:52.096  2936  2991 D EnterpriseDeviceManagerService: isMdmAdminPresentInternal() : MDM Admin Found - com.samsung.knox.securefolder
+07-08 05:20:52.096  9973  7578 I Routine@Core[5.0.03.22]: ActivityWatcherListenerImpl: onResumeComponent: componentName - com.infinity.companion.test, androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, userId: 0
+07-08 05:20:52.097  9973  7578 I Routine@Core[5.0.03.22]: Pref: putSharedPrefsData: key=condition_launch_game_data_resume_pkg, data.size=97
+07-08 05:20:52.097  2936  3838 D SemWifiTransportLayerMonitor.TcpMonitorHandler: MSG_SAVE_PACKAGE_INFO
+07-08 05:20:52.097  2936  3838 D SemWifiTransportLayerFileManager: saveWifiPackageInfoToFile
+07-08 05:20:52.097  2936  3838 D SemWifiTransportLayerFileManager: writeWifiPackageInfoList
+07-08 05:20:52.098  4960  4960 I HoneySpace.EdgePanel.CocktailHostRepositoryImpl: onNoteResume
+07-08 05:20:52.098  4960  4960 I HoneySpace.EdgePanel.EdgePanelContainerViewModel: cocktailHostRepository.edgePanelOperation NoteResumeComponent(componentName=ComponentInfo{com.infinity.companion.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity})
+07-08 05:20:52.098  4960  4960 I HoneySpace.EdgePanel.ActivityUtils: HomePackage : com.sec.android.app.launcher, resumePackageName : com.infinity.companion.test, className : androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+07-08 05:20:52.098 21304 21304 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+07-08 05:20:52.099 21304 21320 E Adreno-AppProfiles: QSPM AIDL service doesn't exist
+07-08 05:20:52.099 21304 21320 I AdrenoVK-0: ===== BEGIN DUMP OF OVERRIDDEN SETTINGS =====
+07-08 05:20:52.099 21304 21320 I AdrenoVK-0: ===== END DUMP OF OVERRIDDEN SETTINGS =====
+07-08 05:20:52.101 21304 21320 D qdgralloc: Fetching IMapper5 from QtiMapper5
+07-08 05:20:52.105 21304 21304 D CompatChangeReporter: Compat change id reported: 309578419; UID 10561; state: ENABLED
+07-08 05:20:52.105 21304 21304 D DesktopExperienceFlags: Toggle override initialized to: false
+07-08 05:20:52.105 21304 21304 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+07-08 05:20:52.107 21304 21320 I SnapAlloc: Graphics lib is available
+07-08 05:20:52.107 21304 21304 I DecorView: setWindowBackground: isPopOver=false color=ffffffff d=android.graphics.drawable.ColorDrawable@fb1c929
+07-08 05:20:52.108  2936  2989 D PkgPredictorService-SecIpmManagerServiceImpl: bg information pid:21240 uid:10560 pkgName:com.infinity.companion
+07-08 05:20:52.108 21240 21240 D BBA2    : setIsFg isFg = false; delayValue 3999ms
+07-08 05:20:52.109 15681 15689 I SAMSUNGWALLET: [Hint_ProcessStatusChange] fg Change, pid : 21240 , isNotify : true , isForeground : false , fg list : []
+07-08 05:20:52.109 15681 15688 I SAMSUNGWALLET: [Hint_ProcessStatusChange] fg Change, pid : 21240 , isNotify : false , isForeground : false , fg list : []
+07-08 05:20:52.110  4960 22356 I HoneySpace.LauncherProvider: call - com.samsung.android.spay, get_rotation_state, null
+07-08 05:20:52.110  4960 22356 I HoneySpace.ExternalMethodItem: updateRefsItemsByEntryPoints. HoneySpaceInfo(name=HomeOnly, displayId=0)
+07-08 05:20:52.110 15681 15790 I SAMSUNGWALLET: [Hint_PayHintService] mIsLauncherPortraitOnlyMode: true, mIsUserLock: true
+07-08 05:20:52.110 15681 15681 I SAMSUNGWALLET: [Hint_PayHintService] Hint Status - already invisible, skip hide : [3] - 3
+07-08 05:20:52.112 21304 21320 I Adreno-UNKNOWN: Using previously loaded IMapper library.
+07-08 05:20:52.114 21304 21320 I AdrenoVK-0: QUALCOMM build          : f61dec9117, I68b0a64d7e
+07-08 05:20:52.114 21304 21320 I AdrenoVK-0: Build Date              : 03/26/26
+07-08 05:20:52.114 21304 21320 I AdrenoVK-0: Shader Compiler Version : E031.47.18.50
+07-08 05:20:52.114 21304 21320 I AdrenoVK-0: Local Branch            :
+07-08 05:20:52.114 21304 21320 I AdrenoVK-0: Remote Branch           : refs/tags/AU_LINUX_ANDROID_LA.VENDOR.15.4.0.11.00.00.1088.862
+07-08 05:20:52.114 21304 21320 I AdrenoVK-0: Remote Branch           : NONE
+07-08 05:20:52.114 21304 21320 I AdrenoVK-0: Reconstruct Branch      : NOTHING
+07-08 05:20:52.114 21304 21320 I AdrenoVK-0: Build Config            : S P 18.0.0 AArch64
+07-08 05:20:52.114 21304 21320 I AdrenoVK-0: Driver Path             : /vendor/lib64/hw/vulkan.adreno.so
+07-08 05:20:52.114 21304 21320 I AdrenoVK-0: Driver Version          : 0800.64.7
+07-08 05:20:52.114 21304 21320 I AdrenoVK-0: PFP                     : 0x01500077
+07-08 05:20:52.114 21304 21320 I AdrenoVK-0: ME                      : 0x01500014
+07-08 05:20:52.114 21304 21320 I AdrenoVK-0: Application Name    : android framework
+07-08 05:20:52.114 21304 21320 I AdrenoVK-0: Process Name        : com.infinity.companion.test
+07-08 05:20:52.114 21304 21320 I AdrenoVK-0: Application Version : 0x00000000
+07-08 05:20:52.114 21304 21320 I AdrenoVK-0: Engine Name         : android framework
+07-08 05:20:52.114 21304 21320 I AdrenoVK-0: Engine Version      : 0x00000000
+07-08 05:20:52.114 21304 21320 I AdrenoVK-0: Api Version         : 0x00401000
+07-08 05:20:52.116 21304 21304 D ViewRootImpl: desktopMode is false
+07-08 05:20:52.116 21304 21304 D CompatChangeReporter: Compat change id reported: 349153669; UID 10561; state: ENABLED
+07-08 05:20:52.116 21304 21304 I ViewRootImpl: dVRR is disabled
+07-08 05:20:52.117 21304 21304 D HardwareRenderer: onDisplayChanged. displayId=0 current wxh=1440x3120 mLargest wxh=0x0
+07-08 05:20:52.117 21304 21304 D HardwareRenderer: Set largestWidth and largestHeight as logical resolution. (1440x3120)
+07-08 05:20:52.117 21304 21320 D HWUI    : setMaxSurfaceArea requested wxh=(1440,3120) requestedSurfaceArea(4492800) mMaxSurfaceArea(2073600)
+07-08 05:20:52.119 21240 21240 D LifecycleMonitor: Lifecycle status change: com.infinity.companion.MainActivity@3f77690 in: DESTROYED
+07-08 05:20:52.119 21240 21240 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+07-08 05:20:52.119 21240 21240 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): null
+07-08 05:20:52.120 21304 21320 D NativeCustomFrequencyManager: [NativeCFMS] BpCustomFrequencyManager::BpCustomFrequencyManager()
+07-08 05:20:52.120 21240 21261 D HWUI    : CacheManager::trimMemory(20)
+07-08 05:20:52.121 21240 21240 I VRI[MainActivity]@74e2437: dispatchDetachedFromWindow
+07-08 05:20:52.122  2936  6100 D InputTransport: Input channel destroyed: 'f58a744', fd=1563
+07-08 05:20:52.122  1824  1824 I SS_POWER_HINT_SESSION: SS_ADPF 21304-10561-1c90 PowerHintSession createHintSession : , 21325, 21326, 21304, 21320 : 16666667
+07-08 05:20:52.122  1817  1973 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 773993015 [1824 / 37519]  HINT :     list : [TID_LOW_LATENCY / 1] [TID / 21325] [TID / 21326] [TID / 21304] [TID / 21320]
+07-08 05:20:52.122  2936  7327 D InputTransport: Input channel constructed: 'f3fd489', fd=1563
+07-08 05:20:52.122 21240 21240 D InputTransport: Input channel destroyed: 'f58a744', fd=132
+07-08 05:20:52.122  2936  7327 D InputTransport: Input channel constructed: 'f3fd489', fd=1567
+07-08 05:20:52.122  2936  7327 D InputTransport: Input channel constructed: 'f3fd489', fd=1568
+07-08 05:20:52.122  2936  7327 D InputTransport: Input channel destroyed: 'f3fd489', fd=1567
+07-08 05:20:52.123  1930  1989 I SurfaceFlinger: id=81483 createSurf, flag=84004, f3fd489 com.infinity.companion.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#81483
+07-08 05:20:52.123  2936  7327 D InputTransport: Input channel destroyed: 'f3fd489', fd=1568
+07-08 05:20:52.123 21304 21304 D InputTransport: Input channel constructed: 'f3fd489', fd=117
+07-08 05:20:52.123  1930  1989 I SurfaceFlinger: id=81484 createSurf, flag=24004, Task=3222#81484
+07-08 05:20:52.124 21304 21304 I InsetsController: onStateChanged: host=com.infinity.companion.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3038, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1440, 3120), mDisplayCutout=DisplayCutout{insets=Rect(0, 128 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(685, 0 - 755, 128), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1440 displayHeight=3120 physicalDisplayWidth=1440 physicalDisplayHeight=3120 density={3.75} cutoutSpec={M 0,0 H -9.333333333333333 V 34.13333333333333 H 9.333333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=53, center=Point(53, 53)}, RoundedCorner{position=TopRight, radius=53, center=Point(1387, 53)}, RoundedCorner{position=BottomRight, radius=53, center=Point(1387, 3067)}, RoundedCorner{position=BottomLeft, radius=53, center=Point(53, 3067)}]}  mRoundedCornerFrame=Rect(0, 0 - 1440, 3120), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(1286, 0 - 1440, 128) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1440 displayHeight=3120 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {c2290001 mType=navigationBars mFrame=[0,3067][1440,3120] mAttachedInsets=null mVisible=false mFlags=SUPPRESS_SCRIM mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {c2290004 mType=systemGestures mFrame=[0,0][105,3120] mAttachedInsets=null mVisible=true mFlags= mSideHint=LEFT mBoundingRects=null}, InsetsSource: {c2290005 mType=mandatorySystemGestures mFrame=[0,3008][1440,3120] mAttachedInsets=null mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {c2290006 mType=tappableElement mFrame=[0,0][0,0] mAttachedInsets=null mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {c2290024 mType=systemGestures mFrame=[1335,0][1440,3120] mAttachedInsets=null mVisible=true mFlags= mSideHint=RIGHT mBoundingRects=null}, InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mAttachedInsets=null mVisible=false mFlags=INVALID mSideHint=NONE mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1440,128] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {14390000 mType=statusBars mFrame=[0,0][1440,128] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {14390005 mType=mandatorySystemGestures mFrame=[0,0][1440,170] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {14390006 mType=tappableElement mFrame=[0,0][1440,128] mAttachedInsets=null mVisible=true mFlags= mSideHint=TOP mBoundingRects=null} }
+07-08 05:20:52.124  1930  1930 I SurfaceFlinger: [f3fd489 com.infinity.companion.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#81483] attach to parent LayerHierarchy{RequestedLayerState{ActivityRecord{64888766 u0 com.infinity.companion.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity t3223}#81480 parentId=81479} 2 children}
+07-08 05:20:52.124  1930  1930 I SurfaceFlinger: [Task=3222#81484] attach to parent Root
+07-08 05:20:52.124  1839  2381 W SDM     : DisplayBase::ResetDispLayerStack: Stack did not clear in PostCommit. Clear now.
+07-08 05:20:52.124  1839  2381 W SDM     : DisplayBase::CommitOrPrepare: Prepare failed: 3
+07-08 05:20:52.124 21304 21304 I VRI[InstrumentationActivityInvoker$EmptyActivity]@6f24e99: synced displayState. AttachInfo displayState=4
+07-08 05:20:52.124  1930  1930 E SurfaceFlinger: [StatusBar$_4266#95] Invalid device requested composition type change: Client (1) --> Device (2)
+07-08 05:20:52.124  1930  1930 E SurfaceFlinger: [NotificationShade$_4266#81368] Invalid device requested composition type change: Client (1) --> Device (2)
+07-08 05:20:52.124  1930  1930 E SurfaceFlinger: trackPendingFrame: Invalid present fence
+07-08 05:20:52.125  4960  4960 I HoneySpace.TaskStackChangeRepositoryImpl: onTaskRemoved : 3222
+07-08 05:20:52.125  4960  4960 I HoneySpace.TaskStackChangeRepositoryImpl: onTaskRemoved : 3222
+07-08 05:20:52.125 21304 21304 I VRI[InstrumentationActivityInvoker$EmptyActivity]@6f24e99: setView = com.android.internal.policy.DecorView@5e637d1 IsHRR=false mFlingFrameRateChange=0 TM=true
+07-08 05:20:52.125  9973  9983 I Routine@Core[5.0.03.22]: ActivityWatcherListenerImpl: onStopComponent: componentName - com.infinity.companion, userId: 0
+07-08 05:20:52.125  4960  4960 I HoneySpace.TaskListViewModel[193346946][0]: taskRemoveId, 3222
+07-08 05:20:52.125  4960  4960 W HoneySpace.TaskListViewModel[193346946][0]: task is already removed: 3222
+07-08 05:20:52.125  4960  4960 I HoneySpace.TaskListViewModel[193346946][0]: taskRemoveId, 3222
+07-08 05:20:52.125  4960  4960 W HoneySpace.TaskListViewModel[193346946][0]: task is already removed: 3222
+07-08 05:20:52.125 21304 21304 I IDS_TAG : Starting IDS observe window
+07-08 05:20:52.125  4960 18062 I HoneySpace.RecentTasks: onRunningTaskVanished
+07-08 05:20:52.125  7166  7166 I AFL#SSS:AssistHolder: onActivityEvent Snapshot Destroyed:ComponentInfo{com.infinity.companion/com.infinity.companion.MainActivity}
+07-08 05:20:52.125  4960  5244 I HoneySpace.RecentTasks: onRecentTasksChanged l:14645982
+07-08 05:20:52.125 21304 21304 I IDS_TAG : Getting Shared Preference for android.app.Application@34e7fb9 uid = 10561
+07-08 05:20:52.125 21240 21258 I TestRunner: finished: mainActivityLaunchesSuccessfully(com.infinity.companion.RemoteControlTest)

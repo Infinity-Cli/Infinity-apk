@@ -1,0 +1,48 @@
+INFO: Constructing runner from config.
+INFO: Configuring Android Instrumentation driver: android_instrumentation_runtime {
+  instrumentation_info {
+    app_package: "com.infinity.companion"
+    test_package: "com.infinity.companion.test"
+    test_runner_class: "androidx.test.runner.AndroidJUnitRunner"
+  }
+  instrumentation_args {
+    args_map {
+      key: "additionalTestOutputDir"
+      value: "/sdcard/Android/media/com.infinity.companion/additional_test_output"
+    }
+    args_map {
+      key: "class"
+      value: "com.infinity.companion.RemoteControlTest"
+    }
+  }
+}
+am_instrument_timeout: 31536000
+
+INFO: Configuring AndroidTestApkInstallerPlugin: apks_to_install {
+  apk_paths: "C:\\Users\\satya\\Documents\\GitHub\\fluxion\\Infinity-apk\\app\\build\\outputs\\apk\\debug\\app-debug.apk"
+  install_options {
+  }
+  uninstall_after_test: true
+}
+apks_to_install {
+  apk_paths: "C:\\Users\\satya\\Documents\\GitHub\\fluxion\\Infinity-apk\\app\\build\\outputs\\apk\\androidTest\\debug\\app-debug-androidTest.apk"
+  install_options {
+  }
+  uninstall_after_test: true
+}
+
+INFO: No installables found in test fixture. Nothing to install.
+INFO: Installing [C:\Users\satya\Documents\GitHub\fluxion\Infinity-apk\app\build\outputs\apk\debug\app-debug.apk] on device RZCY11026VM.
+INFO: Installing [C:\Users\satya\Documents\GitHub\fluxion\Infinity-apk\app\build\outputs\apk\androidTest\debug\app-debug-androidTest.apk] on device RZCY11026VM.
+INFO: Start logcat streaming.
+WARNING: Shell command failed (255): appops set androidx.test.services MANAGE_EXTERNAL_STORAGE allow
+Error: No UID for androidx.test.services in user 0
+INFO: Running Android Instrumentation driver.
+INFO: Copying files from device to host: /sdcard/Android/media/com.infinity.companion/additional_test_output to C:\Users\satya\Documents\GitHub\fluxion\Infinity-apk\app\build\outputs\connected_android_test_additional_output\debugAndroidTest\connected\SM-S938B - 16
+INFO: Copying files from device to host: /sdcard/googletest/test_outputfiles to C:\Users\satya\Documents\GitHub\fluxion\Infinity-apk\app\build\outputs\connected_android_test_additional_output\debugAndroidTest\connected\SM-S938B - 16
+INFO: Stop logcat streaming.
+INFO: Uninstalling com.infinity.companion for device RZCY11026VM.
+INFO: Uninstalling com.infinity.companion.test for device RZCY11026VM.
+INFO: Execute com.infinity.companion.RemoteControlTest.wrongKeyDecryptionFails: PASSED
+INFO: Execute com.infinity.companion.RemoteControlTest.mainActivityLaunchesSuccessfully: PASSED
+INFO: Execute com.infinity.companion.RemoteControlTest.e2eeRoundTrip: PASSED
