@@ -1,2 +1,0 @@
-07-08 05:20:51.307 21240 21258 I TestRunner: started: wrongKeyDecryptionFails(com.infinity.companion.RemoteControlTest)
-07-08 05:20:51.446 21240 21258 I TestRunner: finished: wrongKeyDecryptionFails(com.infinity.companion.RemoteControlTest)

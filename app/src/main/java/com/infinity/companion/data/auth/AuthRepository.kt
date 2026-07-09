@@ -150,12 +150,14 @@ class AuthRepository(
         return this
     }
 
+    /**
+     * Returns the current access token, or null if not yet signed in.
+     * Used by [PairingRepository] and [RelaySocketManager] to authenticate
+     * HTTP and WebSocket requests.
+     */
+    fun getAccessToken(): String? = tokenStorage.accessToken
+
     companion object {
-        /**
-         * Default base URL for the Infinity API.
-         *
-         * Use [REDACTED-IP_ADDRESS]:3000 when running on the emulator (host loopback).
-         */
         const val DEFAULT_BASE_URL = "[REDACTED-IP_ADDRESS]:3000"
     }
 }
