@@ -28,19 +28,21 @@ sdk.dir=C:/Users/<you>/AppData/Local/Android/Sdk
 ## Configure the API endpoints
 
 Open `app/src/main/res/values/strings.xml` (or the equivalent build-config
-source set) and set the Infinity-api base URL and Supabase client ID that the
+source set) and set the Infinity-api base URL and WebSocket URL that the
 app should use:
 
 ```xml
 <resources>
     <string name="app_name">Infinity Companion</string>
     <!-- Add or update these for your environment -->
-    <string name="api_base_url">http://10.0.2.2:3000</string>
+    <string name="api_base_url">[REDACTED-IP_ADDRESS]:3000</string>
+    <string name="api_ws_url">ws://[REDACTED-IP_ADDRESS]:3000/ws</string>
     <string name="supabase_client_id">your-supabase-client-id</string>
 </resources>
 ```
 
-Use `10.0.2.2` when running against Infinity-api on the emulator host.
+Use `[REDACTED-IP_ADDRESS]` (emulator loopback) when running against Infinity-api
+on the emulator host. On a real device, replace with your LAN IP or hostname.
 
 ## Build a debug APK
 

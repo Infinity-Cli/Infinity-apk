@@ -7,4 +7,9 @@
     <string name="execution_pause">Pause</string>
     <string name="execution_resume">Resume</string>
     <string name="execution_stop">Stop</string>
+
+    <!-- API configuration -->
+    <string name="api_base_url" translatable="false">[REDACTED-IP_ADDRESS]:3000</string>
+    <string name="supabase_client_id" translatable="false">your-supabase-client-id</string>
+    <string name="api_ws_url" translatable="false">ws://[REDACTED-IP_ADDRESS]:3000/ws</string>
 </resources>

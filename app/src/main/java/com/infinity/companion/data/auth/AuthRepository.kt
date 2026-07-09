@@ -120,7 +120,7 @@ class AuthRepository(
     /**
      * Refreshes the access token using the stored refresh token.
      */
-    suspend fun refreshTokens(): Result<Unit> = runCatching {
+    suspend fun refreshToken(): Result<String> = runCatching {
         val refreshToken = tokenStorage.refreshToken
             ?: error("No refresh token available")
 
@@ -129,27 +129,33 @@ class AuthRepository(
             setBody(RefreshRequest(refreshToken))
         }
         response.throwOnError()
-        val body = response.body<RefreshResponse>()
-        val accessToken = body.accessToken ?: body.token
-            ?: error("No access token in refresh response")
+        val refreshed = response.body<RefreshResponse>()
+        val newAccessToken = refreshed.accessToken ?: refreshed.token
+            ?: error("No token in refresh response")
 
-        tokenStorage.accessToken = accessToken
-        body.refreshToken?.let { tokenStorage.refreshToken = it }
+        tokenStorage.accessToken = newAccessToken
+        refreshed.accessToken?.let { tokenStorage.accessToken = it }
+        refreshed.refreshToken?.let { tokenStorage.refreshToken = it }
+
+        newAccessToken
     }
 
-    fun getAccessToken(): String? = tokenStorage.accessToken
-
-    fun isAuthenticated(): Boolean = !tokenStorage.accessToken.isNullOrBlank()
-
-    fun clearAuth() = tokenStorage.clear()
-
-    private fun HttpResponse.throwOnError() {
+    /**
+     * Ktor-style HTTP error check that throws on non-2xx responses.
+     */
+    private fun HttpResponse.throwOnError(): HttpResponse {
         if (!status.isSuccess()) {
             error("Request failed with HTTP ${status.value}")
         }
+        return this
     }
 
     companion object {
-        const val DEFAULT_BASE_URL = "https://infinity-api.example.com"
+        /**
+         * Default base URL for the Infinity API.
+         *
+         * Use [REDACTED-IP_ADDRESS]:3000 when running on the emulator (host loopback).
+         */
+        const val DEFAULT_BASE_URL = "[REDACTED-IP_ADDRESS]:3000"
     }
 }
